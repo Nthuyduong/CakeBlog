@@ -1,24 +1,34 @@
+import React from "react";
+import {
+  Route,
+  HashRouter as Router,
+  Switch,
+} from "react-router-dom";
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+import { ROUTER } from "./utils/constants";
+import About from "./pages/about";
+import Home from "./pages/home"
+import Search from "./pages/search";
+import "@fortawesome/fontawesome-svg-core";
+import "@fortawesome/react-fontawesome"
+import Recipelist from "./pages/recipelist";
+import Recipedetail from "./pages/recipedetail";
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <Router>
+        <Switch>
+          <Layout>
+            <Route exact path={ROUTER.HOME} component={Home}/>
+            <Route path={ROUTER.ABOUT} component={About}/>
+            <Route path={ROUTER.RECIPELIST} component={Recipelist}/>
+            <Route path={ROUTER.RECIPEDETAIL} component={Recipedetail}/>
+            <Route path={ROUTER.SEARCH} component={Search}/>
+          </Layout>
+        </Switch>
+      </Router>
   );
 }
 
