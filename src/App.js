@@ -4,10 +4,10 @@ import {
   HashRouter as Router,
   Switch,
 } from "react-router-dom";
-import logo from './logo.svg';
 import './App.css';
 
-import { ROUTER } from "./utils/constants";
+import { ROUTER } from "./utils/constant";
+import Layout from "./component/layout";
 import About from "./pages/about";
 import Home from "./pages/home"
 import Search from "./pages/search";

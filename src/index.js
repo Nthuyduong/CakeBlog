@@ -8,8 +8,7 @@ import "@fortawesome/fontawesome-svg-core"
 import "@fortawesome/react-fontawesome"
 import reportWebVitals from './reportWebVitals';
 
-const container = document.getElementById("root");
-const root = createRoot(container);
+const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>
