@@ -1,0 +1,25 @@
+//VARIABLE
+$primary_color: #FFA996;
+$secondary_color: #2B4F60;
+$tertiary_color: #FFEEEA;
+$heading_1: 68px;
+$heading_2: 48px;
+$heading_3: 32px;
+$heading_4: 26px;
+$heading_5: 20px;
+$medium_text: 16px;
+$body_text: 14px;
+$small_text: 12px;
+
+@import "home";
+@import "about";
+@import "recipedetail";
+@import "recipelist";
+@import "layout";
+@import "search";
+
+html,
+body {
+  color: #333;
+  font-family: "Overlock", sans-serif;
+}

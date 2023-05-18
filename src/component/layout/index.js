@@ -1,8 +1,16 @@
 import React from "react";
+import Header from "./header";
+import Footer from "./footer";
 
-const Layout = () => {
+const Layout = ({children}) => {
     return (
-        <div>this is layout pgae</div>
+        <div className="">
+            <Header />
+            <div className={`page-body-wrapper`}>
+                {children}
+            </div>
+            <Footer />
+        </div>
     )
 }
 
