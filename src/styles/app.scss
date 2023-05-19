@@ -19,6 +19,7 @@ $small_text: 12px;
 @import "layout";
 @import "search";
 @import "blog";
+@import "contact";
 
 *{
   padding:0px;
@@ -96,6 +97,14 @@ body {
 }
 
 //SETTINGS
+input{
+  border-bottom: 1px solid #999;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  background: none;
+  padding: 0;
+}
 .line{
   background-color:#FFA996;
   width:100%;

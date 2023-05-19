@@ -13,7 +13,13 @@ const Blog = () => {
             <div className="container-fluid blog-main">
                 <div className="blog">
                     <div className="row">
-                        <div className="col-2"></div>
+                        <div className="col-2">
+                            <div className="medium_text">All</div>
+                            <div className="medium_text">Life Style</div>
+                            <div className="medium_text">Baking Tips</div>
+                            <div className="medium_text">Cake Diary</div>
+                            <div className="medium_text">Inspiration</div>
+                        </div>
                         <div className="col-10">
                             <div className="d-flex">
                                 <div className="col-4">

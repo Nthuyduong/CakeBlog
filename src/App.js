@@ -10,8 +10,9 @@ import { ROUTER } from "./utils/constant";
 import Layout from "./component/layout";
 import About from "./pages/about";
 import Home from "./pages/home"
-import Search from "./pages/search";
+import Contact from "./pages/contact";
 import Blog from "./pages/blog";
+import Search from "./pages/search";
 import "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/react-fontawesome"
 import Recipelist from "./pages/recipelist";
@@ -28,6 +29,7 @@ const App = () => {
               <Route path={ROUTER.RECIPEDETAIL} component={Recipedetail}/>
               <Route path={ROUTER.SEARCH} component={Search}/>
               <Route path={ROUTER.BLOG} component={Blog}/>
+              <Route path={ROUTER.CONTACT} component={Contact}/>
           </Layout>
         </Switch>
       </Router>

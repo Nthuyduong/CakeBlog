@@ -1,0 +1,49 @@
+//CONTACT BANNER
+.contact-banner{
+  .banner-img{
+    position:relative;
+  }
+  .contact-title{
+    position: absolute;
+    top:60%;
+    left:50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+//Q&A
+.QA{
+  margin-top: 120px;
+  margin-bottom: 120px;
+  .search-bar{
+    .search-input{
+      border-top:none;
+      border-left:none;
+      border-right:none;
+      border-bottom: 1px solid #999;
+    }
+    .icon-search{
+      font-size: 23px;
+    }
+  }
+  .QA-title{
+    margin-top:60px;
+    .all-choose{
+      justify-content: center;
+      align-items: center;
+      .QA-choose{
+        padding: 16px 24px;
+        background-color: $tertiary_color;
+      }
+    }
+  }
+}
+//ASK A NEW QUESTION AND CONTACT
+.contact{
+  margin-bottom: 120px;
+  .contact-form{
+    background-color: $tertiary_color;
+    padding-top:60px;
+    padding-bottom:60px;
+  }
+}
