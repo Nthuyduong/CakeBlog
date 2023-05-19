@@ -1,0 +1,59 @@
+//SPECIAL CAKE
+.special-cake{
+  .special-left{
+    background-image: url("../img/special-left.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    .left-inner{
+      .left-img{
+        width: 50%;
+      }
+    }
+  }
+  .special-right{
+    background-image: url("../img/special-right.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+}
+
+//SIGN UP FOR EMAIL
+.signup{
+  .signup-left{
+    padding-right:0px !important;
+  }
+  .signup-right{
+    padding-left: 0px !important;
+    background-color: $tertiary_color;
+    .signup-content{
+      margin-top:90px;
+      width: 400px;
+      margin-left:40px;
+    }
+  }
+}
+
+//FOLLOW ON INSTAGRAM
+.follow{
+  padding-top:90px;
+  padding-bottom:90px;
+  margin-bottom:120px;
+  .follow-left{
+    .line{
+      margin-top:8px;
+    }
+    .list-box{
+      position: absolute;
+      bottom: 0px;
+      img{
+        width: 100%;
+        padding-right:10px;
+      }
+    }
+  }
+  .follow-cen{
+    .follow2{
+      margin-bottom:30px;
+    }
+  }
+}

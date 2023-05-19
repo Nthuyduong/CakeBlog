@@ -20,23 +20,27 @@ const Header = () =>{
                     <div className="header-content">
                         <Nav className="nav-menu">
                             <NavItem>
-                                <Link className="item-name body_text" to="/">HOME</Link>
+                                <Link className="item-name body_text" to="/">
+                                    HOME
+                                </Link>
                             </NavItem>
                             <NavItem>
-                                <Link className="item-name body_text" to={ROUTER.ABOUT}>ABOUT US</Link>
+                                <Link to={ROUTER.ABOUT} className="item-name body_text">
+                                    ABOUT US
+                                </Link>
                             </NavItem>
                             <NavItem>
-                                <Link className="item-name body_text" to={ROUTER.RECIPELIST}>
+                                <Link to={ROUTER.RECIPELIST} className="item-name body_text">
                                     RECIPE LIST
                                 </Link>
                             </NavItem>
                             <NavItem>
-                                <Link className="item-name body_text" to={ROUTER.BLOG}>
+                                <Link to={ROUTER.BLOG} className="item-name body_text">
                                     BLOG
                                 </Link>
                             </NavItem>
                             <NavItem>
-                                <Link className="item-name body_text" to={ROUTER.CONTACT}>
+                                <Link to={ROUTER.CONTACT} className="item-name body_text">
                                     CONTACT
                                 </Link>
                             </NavItem>
