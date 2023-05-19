@@ -5,7 +5,7 @@ const Home = () => {
         <div>
             <div className="container-fluid">
                 {/*TOP TRENDING*/}
-                <div className="container-fluid">
+                <div className="">
                     {/*RECENTLY UPDATE*/}
                     <div className="recently-update">
                         <div className="title row">

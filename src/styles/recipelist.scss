@@ -1,0 +1,26 @@
+//FOUR RECIPE BOX
+//it's cart here
+.recipe-list{
+  .recipe-box{
+    .recipe-list-box{
+      .list-box{
+
+      }
+      .two-box{
+        .box-top{
+          margin-bottom:30px;
+        }
+      }
+    }
+  }
+}
+
+.list-box{
+  position:relative;
+  .list-name{
+    position:absolute;
+    left:5%;
+    bottom:5%;
+  }
+}
+
