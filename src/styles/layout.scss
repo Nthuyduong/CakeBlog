@@ -1,0 +1,21 @@
+//HEADER HERE
+.main-header{
+  padding-top:16px;
+  padding-bottom: 16px;
+  .main-logo{
+    margin-right:60px;
+    .logo-web{
+      height: 40px;
+    }
+  }
+  .header-content{
+    margin-right: auto;
+    .nav-menu{
+      .nav-item{
+       padding: 8px 16px;
+      }
+    }
+  }
+  .header-icon{
+  }
+}

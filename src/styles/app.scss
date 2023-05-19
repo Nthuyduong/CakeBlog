@@ -21,6 +21,9 @@ $small_text: 12px;
 
 html,
 body {
+  font-size: $body_text;
+  line-height: $body_text*1.5;
+  font-weight: 400;
   color: #333;
   font-family: "Overlock", sans-serif;
 }
@@ -30,49 +33,65 @@ body {
   font-family: 'Overlock',serif;
   font-size: $heading_1;
   line-height: $heading_1*1.25;
+  font-weight: 900;
 }
 .heading_2{
   font-family: 'Overlock',serif;
   font-size: $heading_2;
   line-height: $heading_2*1.25;
+  font-weight: 900;
 }
 .heading_3{
   font-family: 'Overlock',serif;
   font-size: $heading_3;
   line-height: $heading_3*1.25;
+  font-weight: 900;
 }
 .heading_4{
   font-family: 'Overlock',serif;
   font-size: $heading_4;
   line-height: $heading_4*1.25;
+  font-weight: 700;
 }
 .heading_5{
   font-family: 'Overlock',serif;
   font-size: $heading_5;
   line-height: $heading_5*1.25;
+  font-weight: 700;
 }
 .heading_6{
   font-family: 'Overlock',serif;
   font-size: $heading_6;
   line-height: $heading_6*1.25;
+  font-weight: 700;
 }
 .body_text {
   font-family: 'Overlock', sans-serif;
   font-size: $body_text;
   line-height: $body_text*1.5;
+  font-weight: 400;
 }
 .medium_text {
   font-family: 'Overlock', sans-serif;
   font-size: $medium_text;
   line-height: $medium_text*1.5;
+  font-weight: 700;
 }
 .small_text {
   font-family: 'Overlock', sans-serif;
   font-size: $small_text;
   line-height: $small_text*1.5;
+  font-weight: 400;
 }
 
 //SETTINGS
+.page-body-wrapper {
+  padding-top: 61px;
+}
+
+a{
+  color: #333 !important;
+}
 .container-fluid {
   padding-left: 65px !important;
   padding-right: 65px !important;
