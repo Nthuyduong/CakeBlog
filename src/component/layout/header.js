@@ -11,40 +11,40 @@ import {faArrowDown, faArrowRight, faPerson, faSearch} from "@fortawesome/free-s
 
 const Header = () =>{
     return(
-        <div>
+        <div className="main-header">
             <div className="container-fluid">
-                <div className="d-flex main-header">
+                <div className="d-flex main-header-inner">
                     <div className="main-logo">
                         <img className="logo-web" src="./image/header/logo.svg" alt="#" loading="lazy"/>
                     </div>
                     <div className="header-content">
                         <Nav className="nav-menu">
                             <NavItem>
-                                <Link className="medium_text nav-item" to="/">HOME</Link>
+                                <Link className="item-name body_text" to="/">HOME</Link>
                             </NavItem>
                             <NavItem>
-                                <Link className="medium_text nav-item" to={ROUTER.ABOUT}>ABOUT US</Link>
+                                <Link className="item-name body_text" to={ROUTER.ABOUT}>ABOUT US</Link>
                             </NavItem>
                             <NavItem>
-                                <Link className="medium_text nav-item" to={ROUTER.RECIPELIST}>
+                                <Link className="item-name body_text" to={ROUTER.RECIPELIST}>
                                     RECIPE LIST
                                 </Link>
                             </NavItem>
                             <NavItem>
-                                <Link className="medium_text nav-item" to={ROUTER.BLOG}>
+                                <Link className="item-name body_text" to={ROUTER.BLOG}>
                                     BLOG
                                 </Link>
                             </NavItem>
                             <NavItem>
-                                <Link className="medium_text nav-item" to={ROUTER.CONTACT}>
+                                <Link className="item-name body_text" to={ROUTER.CONTACT}>
                                     CONTACT
                                 </Link>
                             </NavItem>
                         </Nav>
                     </div>
                     <div className="header-icon">
-                        <FontAwesomeIcon className="icon-up" icon={faPerson}/>
-                        <FontAwesomeIcon icon={faSearch}/>
+                        <FontAwesomeIcon className="icon-search" icon={faSearch}/>
+                        <FontAwesomeIcon className="icon-user" icon={faPerson}/>
                     </div>
                 </div>
             </div>

@@ -1,0 +1,100 @@
+//BANNER HERE
+.banner{
+  .banner-inner{
+    padding-top:100px;
+    padding-bottom: 100px;
+    background-color: rgba(255, 169, 150, 0.65);
+    .banner-hi{
+      padding-bottom: 16px;
+    }
+  }
+}
+
+//DEAR
+.dear{
+  margin-top:120px;
+  margin-bottom:140px;
+  .dear-top{
+    .dear-glad{
+      margin-bottom:30px;
+    }
+  }
+  .dear-bottom{
+    .dear-info{
+      .from{
+        margin-bottom:10px
+      }
+      .span{
+        padding-right:10px;
+      }
+      .from-to{
+        color: $primary_color;
+      }
+    }
+    .dear-content{
+      .dear-ct-n1{
+        margin-top: 18px;
+        margin-bottom: 16px;
+      }
+    }
+  }
+}
+
+//WHO WE ARE
+.who{
+  position:relative;
+  .who-right{
+    position:absolute;
+    right:30px;
+    top:20%;
+    .who-content{
+      padding-top: 120px;
+      .who-title{
+        margin-top:10px;
+        margin-bottom:20px;
+      }
+      .pg1{
+        margin-bottom:16px;
+      }
+    }
+  }
+}
+
+//WHAT WE DO
+.what{
+  .what-down{
+    margin-top: 260px;
+    .intro{
+      .main-title{
+        margin-bottom:20px;
+      }
+    }
+  }
+  .what-up{
+    margin-top:140px;
+    cart-intro{
+
+    }
+  }
+  .sub-title{
+    margin-top:16px;
+    margin-bottom:8px;
+  }
+}
+
+//GALLERY
+.gallery{
+  margin-bottom:140px;
+  margin-top:140px;
+  .gallery-inner{
+    margin-bottom:50px;
+    .gallery-title{
+      padding-bottom:16px;
+    }
+  }
+  .gallery-img{
+    .gallery-top{
+      margin-bottom:30px;
+    }
+  }
+}

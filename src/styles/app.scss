@@ -19,6 +19,16 @@ $small_text: 12px;
 @import "layout";
 @import "search";
 
+*{
+  padding:0px;
+  margin:0px;
+  box-sizing:border-box;
+}
+img{
+  width:100%;
+  display: block;
+  vertical-align: middle;
+}
 html,
 body {
   font-size: $body_text;
@@ -51,7 +61,7 @@ body {
   font-family: 'Overlock',serif;
   font-size: $heading_4;
   line-height: $heading_4*1.25;
-  font-weight: 700;
+  font-weight: 900;
 }
 .heading_5{
   font-family: 'Overlock',serif;
@@ -85,16 +95,12 @@ body {
 }
 
 //SETTINGS
-.page-body-wrapper {
-  padding-top: 61px;
-}
-
 a{
   color: #333 !important;
 }
 .container-fluid {
-  padding-left: 65px !important;
-  padding-right: 65px !important;
+  padding-left: 80px !important;
+  padding-right: 80px !important;
 }
 .text-center {
   text-align: center;
