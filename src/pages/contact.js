@@ -1,9 +1,14 @@
 import React from "react";
-import {faSearch} from "@fortawesome/free-solid-svg-icons";
+import {faCircleMinus, faMinusCircle, faSearch} from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import { Collapsible } from 'collapsible-react-component'
+import 'collapsible-react-component/dist/index.css'
 
 const Contact = () => {
+    const [open, setOpen] = React.useState(true)
+
     return(
+
         <div>
             {/*CONTACT BANNER*/}
             <div className="contact-banner">
@@ -82,32 +87,47 @@ const Contact = () => {
                         <div className="col-8">
                             <div className="question">
                                 <div className="medium_text">Baking</div>
-                                <div className="heading_6">HAVE A QUESTION YOU DON'T SEE BELOW?</div>
-                                <div>
+                                <div className="d-flex">
+                                    <div className="heading_6 mr-auto">HAVE A QUESTION YOU DON'T SEE BELOW?</div>
+                                    <FontAwesomeIcon className="icon-search" icon={faCircleMinus} onClick={() => {
+                                        setOpen(!open)
+                                    }}/>
+                                </div>
+                                <Collapsible open={open}>
                                     Tempus, tristique morbi scelerisque sed. Diam nec ut sed est sit in tortor. Blandit consequat
                                     quisque vitae ornare diam netus tellus. Tempus, tristique morbi scelerisque sed. Diam nec ut sed
                                     est sit in tortor. Blandit consequat quisque vitae.
-                                </div>
+                                </Collapsible>
                             </div>
                             <div className="line my-4"></div>
                             <div className="question">
                                 <div className="medium_text">Personal</div>
-                                <div className="heading_6">HAVE A QUESTION YOU DON'T SEE BELOW?</div>
-                                <div>
+                                <div className="d-flex">
+                                    <div className="heading_6 mr-auto">HAVE A QUESTION YOU DON'T SEE BELOW?</div>
+                                    <FontAwesomeIcon className="icon-search" icon={faCircleMinus} onClick={() => {
+                                        setOpen(!open)
+                                    }}/>
+                                </div>
+                                <Collapsible open={open}>
                                     Tempus, tristique morbi scelerisque sed. Diam nec ut sed est sit in tortor. Blandit consequat
                                     quisque vitae ornare diam netus tellus. Tempus, tristique morbi scelerisque sed. Diam nec ut sed
                                     est sit in tortor. Blandit consequat quisque vitae.
-                                </div>
+                                </Collapsible>
                             </div>
                             <div className="line my-4"></div>
                             <div className="question">
                                 <div className="medium_text">Frosting</div>
-                                <div className="heading_6">HAVE A QUESTION YOU DON'T SEE BELOW?</div>
-                                <div>
+                                <div className="d-flex">
+                                    <div className="heading_6 mr-auto">HAVE A QUESTION YOU DON'T SEE BELOW?</div>
+                                    <FontAwesomeIcon className="icon-search" icon={faCircleMinus} onClick={() => {
+                                        setOpen(!open)
+                                    }}/>
+                                </div>
+                                <Collapsible open={open}>
                                     Tempus, tristique morbi scelerisque sed. Diam nec ut sed est sit in tortor. Blandit consequat
                                     quisque vitae ornare diam netus tellus. Tempus, tristique morbi scelerisque sed. Diam nec ut sed
                                     est sit in tortor. Blandit consequat quisque vitae.
-                                </div>
+                                </Collapsible>
                             </div>
                         </div>
                         <div className="col-2"></div>
