@@ -6,6 +6,8 @@ import 'collapsible-react-component/dist/index.css'
 
 const Contact = () => {
     const [open, setOpen] = React.useState(true)
+    const [open2, setOpen2] = React.useState(true);
+    const [open3, setOpen3] = React.useState(true);
 
     return(
 
@@ -105,10 +107,10 @@ const Contact = () => {
                                 <div className="d-flex">
                                     <div className="heading_6 mr-auto">HAVE A QUESTION YOU DON'T SEE BELOW?</div>
                                     <FontAwesomeIcon className="icon-search" icon={faCircleMinus} onClick={() => {
-                                        setOpen(!open)
+                                        setOpen(!open2)
                                     }}/>
                                 </div>
-                                <Collapsible open={open}>
+                                <Collapsible open={open2}>
                                     Tempus, tristique morbi scelerisque sed. Diam nec ut sed est sit in tortor. Blandit consequat
                                     quisque vitae ornare diam netus tellus. Tempus, tristique morbi scelerisque sed. Diam nec ut sed
                                     est sit in tortor. Blandit consequat quisque vitae.
@@ -120,10 +122,10 @@ const Contact = () => {
                                 <div className="d-flex">
                                     <div className="heading_6 mr-auto">HAVE A QUESTION YOU DON'T SEE BELOW?</div>
                                     <FontAwesomeIcon className="icon-search" icon={faCircleMinus} onClick={() => {
-                                        setOpen(!open)
+                                        setOpen(!open3)
                                     }}/>
                                 </div>
-                                <Collapsible open={open}>
+                                <Collapsible open={open3}>
                                     Tempus, tristique morbi scelerisque sed. Diam nec ut sed est sit in tortor. Blandit consequat
                                     quisque vitae ornare diam netus tellus. Tempus, tristique morbi scelerisque sed. Diam nec ut sed
                                     est sit in tortor. Blandit consequat quisque vitae.
