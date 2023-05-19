@@ -115,6 +115,7 @@ const Recipelist = () => {
             </div>
             {/*ALL RECIPES*/}
             <div className="all-recipes">
+                <div className="heading_4">All Recipes</div>
                 <div className="row">
                     {/*RECIPES LEFT*/}
                     <div className="col-4">

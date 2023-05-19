@@ -18,6 +18,7 @@ $small_text: 12px;
 @import "recipelist";
 @import "layout";
 @import "search";
+@import "blog";
 
 *{
   padding:0px;
@@ -104,8 +105,8 @@ a{
   color: #333 !important;
 }
 .container-fluid {
-  padding-left: 100px !important;
-  padding-right: 100px !important;
+  padding-left: 120px !important;
+  padding-right: 120px !important;
 }
 .text-center {
   text-align: center;
