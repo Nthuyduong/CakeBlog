@@ -145,3 +145,15 @@ a{
   border: 1px solid #000 !important;
   background-color: transparent !important;
 }
+//SEARCH BAR
+.search-bar{
+  .search-input{
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-bottom: 1px solid #999;
+  }
+  .icon-search{
+    font-size: 23px;
+  }
+}

@@ -15,9 +15,9 @@ const Blog = () => {
                     <div className="row">
                         <div className="col-2">
                             <div className="medium_text">All</div>
-                            <div className="medium_text">Life Style</div>
+                            <div className="medium_text my-3">Life Style</div>
                             <div className="medium_text">Baking Tips</div>
-                            <div className="medium_text">Cake Diary</div>
+                            <div className="medium_text my-3">Cake Diary</div>
                             <div className="medium_text">Inspiration</div>
                         </div>
                         <div className="col-10">

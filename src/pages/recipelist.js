@@ -41,8 +41,11 @@ const Recipelist = () => {
             </div>
             {/*RECENTLY UPDATE*/}
             <div className="recent-update">
-                <div className="heading_4">Recently updated</div>
-                <div className="row">
+                <div className="d-flex recent-title mb-4">
+                    <div className="heading_4 mr-auto">Recently updated</div>
+                    <div className="medium_text">Showing: 4/12</div>
+                </div>
+                <div className="row recent-section">
                     <div className="col-3">
                         <div className="update-cart">
                             <img src="./image/recipelist/recent01.png"/>
@@ -51,7 +54,7 @@ const Recipelist = () => {
                                     Cake&Vegan
                                 </div>
                                 <div className="medium_text">
-                                    Chocolate cream cake
+                                    LEMON CHEESE CAKE
                                 </div>
                                 <div className="description">
                                     Tempus, tristique morbi scelerisque sed. Diam nec ut sed est sit in tortor.
@@ -68,7 +71,7 @@ const Recipelist = () => {
                                     Cake&Vegan
                                 </div>
                                 <div className="medium_text">
-                                    Chocolate cream cake
+                                    SWEET CHEESE CAKE
                                 </div>
                                 <div className="description">
                                     Tempus, tristique morbi scelerisque sed. Diam nec ut sed est sit in tortor.
@@ -85,7 +88,7 @@ const Recipelist = () => {
                                     Cake&Vegan
                                 </div>
                                 <div className="medium_text">
-                                    Chocolate cream cake
+                                    LASYO CREAM CAKE
                                 </div>
                                 <div className="description">
                                     Tempus, tristique morbi scelerisque sed. Diam nec ut sed est sit in tortor.
@@ -115,7 +118,10 @@ const Recipelist = () => {
             </div>
             {/*ALL RECIPES*/}
             <div className="all-recipes">
-                <div className="heading_4">All Recipes</div>
+                <div className="all-title mb-5 text-center">
+                    <div className="heading_4 mb-3">All Recipes</div>
+                    <div>Tempus, tristique morbi scelerisque sed. Diam nec ut sed est sit in tortor.</div>
+                </div>
                 <div className="row">
                     {/*RECIPES LEFT*/}
                     <div className="col-4">
@@ -128,6 +134,7 @@ const Recipelist = () => {
                                 consequat quisque vitae ornare diam netus tellus.
                             </div>
                         </div>
+                        <div className="line my-4"></div>
                         <div className="recipe-cart">
                             <img src="./image/recipelist/all-r02.png"/>
                             <div>Cake&Vegan</div>
@@ -137,6 +144,7 @@ const Recipelist = () => {
                                 consequat quisque vitae ornare diam netus tellus.
                             </div>
                         </div>
+                        <div className="line my-4"></div>
                         <div className="recipe-cart">
                             <img src="./image/recipelist/all-r03.png"/>
                             <div>Cake&Vegan</div>
@@ -146,6 +154,7 @@ const Recipelist = () => {
                                 consequat quisque vitae ornare diam netus tellus.
                             </div>
                         </div>
+                        <div className="line my-4"></div>
                         <div className="recipe-cart">
                             <img src="./image/recipelist/all-r04.png"/>
                             <div>Cake&Vegan</div>
@@ -167,6 +176,7 @@ const Recipelist = () => {
                                 consequat quisque vitae ornare diam netus tellus.
                             </div>
                         </div>
+                        <div className="line my-4"></div>
                         <div className="recipe-cart">
                             <img src="./image/recipelist/all-r6.png"/>
                             <div>Cake&Vegan</div>
@@ -176,6 +186,7 @@ const Recipelist = () => {
                                 consequat quisque vitae ornare diam netus tellus.
                             </div>
                         </div>
+                        <div className="line my-4"></div>
                         <div className="recipe-cart">
                             <img src="./image/recipelist/all-r8.png"/>
                             <div>Cake&Vegan</div>
@@ -185,6 +196,7 @@ const Recipelist = () => {
                                 consequat quisque vitae ornare diam netus tellus.
                             </div>
                         </div>
+                        <div className="line my-4"></div>
                         <div className="recipe-cart">
                             <img src="./image/recipelist/all-r9.png"/>
                             <div>Cake&Vegan</div>
@@ -206,6 +218,7 @@ const Recipelist = () => {
                                 consequat quisque vitae ornare diam netus tellus.
                             </div>
                         </div>
+                        <div className="line my-4"></div>
                         <div className="recipe-cart">
                             <img src="./image/recipelist/all-r10.png"/>
                             <div>Cake&Vegan</div>
@@ -215,6 +228,7 @@ const Recipelist = () => {
                                 consequat quisque vitae ornare diam netus tellus.
                             </div>
                         </div>
+                        <div className="line my-4"></div>
                         <div className="recipe-cart">
                             <img src="./image/recipelist/all-r11.png"/>
                             <div>Cake&Vegan</div>
@@ -224,6 +238,7 @@ const Recipelist = () => {
                                 consequat quisque vitae ornare diam netus tellus.
                             </div>
                         </div>
+                        <div className="line my-4"></div>
                         <div className="recipe-cart">
                             <img src="./image/recipelist/all-r12.png"/>
                             <div>Cake&Vegan</div>

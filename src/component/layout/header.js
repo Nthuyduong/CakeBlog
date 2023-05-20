@@ -47,7 +47,9 @@ const Header = () =>{
                         </Nav>
                     </div>
                     <div className="header-icon">
-                        <FontAwesomeIcon className="icon-search" icon={faSearch}/>
+                        <Link to={ROUTER.SEARCH}>
+                            <FontAwesomeIcon className="icon-search" icon={faSearch}/>
+                        </Link>
                         <FontAwesomeIcon className="icon-user" icon={faPerson}/>
                     </div>
                 </div>

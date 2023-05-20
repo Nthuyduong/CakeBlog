@@ -1,10 +1,16 @@
 //FOUR RECIPE BOX
 //it's cart here
 .recipe-list{
+  margin-top:40px;
   .recipe-box{
     .recipe-list-box{
       .list-box{
-
+        position:relative;
+        .list-name{
+          position:absolute;
+          left:5%;
+          bottom:5%;
+        }
       }
       .two-box{
         .box-top{
@@ -14,13 +20,11 @@
     }
   }
 }
+//RECENTLY UPDATE
+.recent-update{
+  margin-top: 110px;
+  margin-bottom: 110px;
+  .recent-section{
 
-.list-box{
-  position:relative;
-  .list-name{
-    position:absolute;
-    left:5%;
-    bottom:5%;
   }
 }
-
