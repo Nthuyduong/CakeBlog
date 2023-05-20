@@ -1,3 +1,54 @@
+//TOP TRENDING
+.top-trend{
+  margin-top:120px;
+  margin-bottom:120px;
+  .trend-content{
+    margin-top:120px;
+    padding-right:0px!important;
+    .content-inner{
+      padding-right:40px;
+    }
+  }
+  .trend-start{
+    padding-left:0px !important;
+    padding-right:0px !important;
+  }
+  .trend-center{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .trend-end{
+    padding-left:0px !important;
+  }
+  .trend-section{
+    overflow: hidden;
+    position:relative;
+    img{
+
+      transition: 0.5s all;
+    }
+    img:hover{
+      transform: scale(110%);
+    }
+    .trend-title{
+      position:absolute;
+      left:30px;
+      bottom:300px;
+    }
+  }
+}
+
+//RECENTLY UPDATE
+.recently-update{
+  margin-top:120px;
+  margin-bottom:120px;
+}
+
+//FOR THIS SEASON
+.for-season{
+  margin-bottom:120px;
+}
+
 //SPECIAL CAKE
 .special-cake{
   .special-left{
