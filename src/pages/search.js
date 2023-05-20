@@ -2,7 +2,11 @@ import React from "react";
 
 const Search = () => {
     return (
-        <div>This is search page</div>
+        <div className="Search-page">
+            <div className="container-fluid">
+                <div className=""></div>
+            </div>
+        </div>
     )
 }
 

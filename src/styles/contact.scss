@@ -5,7 +5,7 @@
   }
   .contact-title{
     position: absolute;
-    top:60%;
+    top:40%;
     left:50%;
     transform: translate(-50%, -50%);
   }
@@ -43,7 +43,7 @@
   margin-bottom: 120px;
   .contact-form{
     background-color: $tertiary_color;
-    padding-top:60px;
-    padding-bottom:60px;
+    padding-top:100px;
+    padding-bottom:100px;
   }
 }

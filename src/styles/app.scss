@@ -97,6 +97,7 @@ body {
 }
 
 //SETTINGS
+textarea,
 input{
   border-bottom: 1px solid #999;
   border-top: 0px;
@@ -130,4 +131,17 @@ a{
 }
 .d-flex{
   display: flex;
+}
+
+//BUTTONS
+.btn-primary{
+  background-color: $primary_color !important;
+  color: #fff !important;
+  border: 1px solid $primary_color !important;
+  padding: 8px 32px;
+}
+.btn-primary:hover{
+  color: #333 !important;
+  border: 1px solid #000 !important;
+  background-color: transparent !important;
 }

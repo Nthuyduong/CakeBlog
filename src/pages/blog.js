@@ -6,7 +6,7 @@ const Blog = () => {
             {/*BANNER HERE*/}
             <div className="banner">
                 <div className="banner-inner text-center text-light">
-                    <div className="heading_2 banner-hi">~The Season Blog~</div>
+                    <div className="heading_2 banner-hi">~THE SEASON BLOG~</div>
                     <div className="heading_5">A Place Of Inspiration</div>
                 </div>
             </div>
