@@ -24,21 +24,29 @@ const Blog = () => {
                             <div className="d-flex">
                                 <div className="col-4">
                                     <div className="blog-cart">
-                                        <img src="./image/blog/blog1.png"/>
-                                        <div>Cake&Vegan</div>
-                                        <div className="heading_6">
-                                            Tempus, tristique morbi scelerisque sed. Diam nec ut sed est sit in tortor.
-                                            Blandit consequat quisque vitae
+                                        <div className="blog-inner">
+                                            <img src="./image/blog/blog1.png"/>
                                         </div>
+                                        <div className="blog-title">
+                                                <div>Cake&Vegan</div>
+                                                <div className="medium_text">
+                                                    Tempus, tristique morbi scelerisque sed. Diam nec ut sed est sit in tortor.
+                                                    Blandit consequat quisque vitae
+                                                </div>
+                                            </div>
                                     </div>
                                 </div>
                                 <div className="col-4">
                                     <div className="blog-cart">
-                                        <img src="./image/blog/blog2.png"/>
-                                        <div>Cake&Vegan</div>
-                                        <div className="heading_6">
-                                            Tempus, tristique morbi scelerisque sed. Diam nec ut sed est sit in tortor.
-                                            Blandit consequat quisque vitae
+                                        <div className="blog-inner">
+                                            <img src="./image/blog/blog2.png"/>
+                                        </div>
+                                        <div className="blog-title">
+                                            <div>Cake&Vegan</div>
+                                            <div className="medium_text">
+                                                Tempus, tristique morbi scelerisque sed. Diam nec ut sed est sit in tortor.
+                                                Blandit consequat quisque vitae
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -46,19 +54,19 @@ const Blog = () => {
                                     <div className="blog-cart">
                                         <img src="./image/blog/blog3.png"/>
                                         <div>Cake&Vegan</div>
-                                        <div className="heading_6">
+                                        <div className="medium_text">
                                             Tempus, tristique morbi scelerisque sed. Diam nec ut sed est sit in tortor.
                                             Blandit consequat quisque vitae
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div className="d-flex">
+                            <div className="d-flex my-5">
                                 <div className="col-4">
                                     <div className="blog-cart">
                                         <img src="./image/blog/blog4.png"/>
                                         <div>Cake&Vegan</div>
-                                        <div className="heading_6">
+                                        <div className="medium_text">
                                             Tempus, tristique morbi scelerisque sed. Diam nec ut sed est sit in tortor.
                                             Blandit consequat quisque vitae
                                         </div>
@@ -68,7 +76,7 @@ const Blog = () => {
                                     <div className="blog-cart">
                                         <img src="./image/blog/blog5.png"/>
                                         <div>Cake&Vegan</div>
-                                        <div className="heading_6">
+                                        <div className="medium_text">
                                             Tempus, tristique morbi scelerisque sed. Diam nec ut sed est sit in tortor.
                                             Blandit consequat quisque vitae
                                         </div>
@@ -78,7 +86,7 @@ const Blog = () => {
                                     <div className="blog-cart">
                                         <img src="./image/blog/blog6.png"/>
                                         <div>Cake&Vegan</div>
-                                        <div className="heading_6">
+                                        <div className="medium_text">
                                             Tempus, tristique morbi scelerisque sed. Diam nec ut sed est sit in tortor.
                                             Blandit consequat quisque vitae
                                         </div>
@@ -90,7 +98,7 @@ const Blog = () => {
                                     <div className="blog-cart">
                                         <img src="./image/blog/blog7.png"/>
                                         <div>Cake&Vegan</div>
-                                        <div className="heading_6">
+                                        <div className="medium_text">
                                             Tempus, tristique morbi scelerisque sed. Diam nec ut sed est sit in tortor.
                                             Blandit consequat quisque vitae
                                         </div>
@@ -100,7 +108,7 @@ const Blog = () => {
                                     <div className="blog-cart">
                                         <img src="./image/blog/blog8.png"/>
                                         <div>Cake&Vegan</div>
-                                        <div className="heading_6">
+                                        <div className="medium_text">
                                             Tempus, tristique morbi scelerisque sed. Diam nec ut sed est sit in tortor.
                                             Blandit consequat quisque vitae
                                         </div>
@@ -110,19 +118,19 @@ const Blog = () => {
                                     <div className="blog-cart">
                                         <img src="./image/blog/blog9.png"/>
                                         <div>Cake&Vegan</div>
-                                        <div className="heading_6">
+                                        <div className="medium_text">
                                             Tempus, tristique morbi scelerisque sed. Diam nec ut sed est sit in tortor.
                                             Blandit consequat quisque vitae
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div className="d-flex">
+                            <div className="d-flex mt-5">
                                 <div className="col-4">
                                     <div className="blog-cart">
                                         <img src="./image/blog/blog10.png"/>
                                         <div>Cake&Vegan</div>
-                                        <div className="heading_6">
+                                        <div className="medium_text">
                                             Tempus, tristique morbi scelerisque sed. Diam nec ut sed est sit in tortor.
                                             Blandit consequat quisque vitae
                                         </div>
@@ -132,7 +140,7 @@ const Blog = () => {
                                     <div className="blog-cart">
                                         <img src="./image/blog/blog11.png"/>
                                         <div>Cake&Vegan</div>
-                                        <div className="heading_6">
+                                        <div className="medium_text">
                                             Tempus, tristique morbi scelerisque sed. Diam nec ut sed est sit in tortor.
                                             Blandit consequat quisque vitae
                                         </div>
@@ -142,7 +150,7 @@ const Blog = () => {
                                     <div className="blog-cart">
                                         <img src="./image/blog/blog12.png"/>
                                         <div>Cake&Vegan</div>
-                                        <div className="heading_6">
+                                        <div className="medium_text">
                                             Tempus, tristique morbi scelerisque sed. Diam nec ut sed est sit in tortor.
                                             Blandit consequat quisque vitae
                                         </div>

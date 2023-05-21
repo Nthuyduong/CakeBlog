@@ -2,3 +2,15 @@
 .blog-main{
   margin-top:60px;
 }
+
+//IMAGE ANIMATION
+.blog-inner{
+  overflow: hidden;
+  img{
+    transition: transform 0.5s ease-out;
+  }
+}
+.blog-inner:hover >img{
+  transform: scale(1.03);
+  filter: brightness(80%);
+}
