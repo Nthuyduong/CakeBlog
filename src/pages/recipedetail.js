@@ -1,13 +1,22 @@
 import React from "react";
+import Breadcrumb from 'react-bootstrap/Breadcrumb';
 
 const Recipedetail = () => {
     return (
         <div>
             <div className="container-fluid">
-                {/*PAGINATION*/}
-                <div></div>
+                {/*BREADCRUMB*/}
+                <div>
+                    <Breadcrumb>
+                        <Breadcrumb.Item href="/">Home</Breadcrumb.Item>
+                        <Breadcrumb.Item href="https://getbootstrap.com/docs/4.0/components/breadcrumb/">
+                            Trending Reipes
+                        </Breadcrumb.Item>
+                        <Breadcrumb.Item active>Data</Breadcrumb.Item>
+                    </Breadcrumb>
+                </div>
                 {/*RECIPE DETAIL HERE*/}
-                <div className="row">
+                <div className="row mt-5">
                     {/*ARTICLE CONTENT HERE*/}
                     <div className="col-9">
                         <div className="row">
@@ -17,25 +26,25 @@ const Recipedetail = () => {
                             </div>
                             <div className="col-2">
                                 <div className="d-flex">
-                                    <div>Prep</div>
+                                    <div className="mr-2 text-pk">Prep</div>
                                     <div>15 Mins</div>
                                 </div>
                                 <div className="d-flex">
-                                    <div>Prep</div>
+                                    <div className="mr-2 text-pk">Cook</div>
                                     <div>15 Mins</div>
                                 </div>
                                 <div className="d-flex">
-                                    <div>Prep</div>
-                                    <div>15 Mins</div>
+                                    <div className="mr-2 text-pk">Level</div>
+                                    <div>Easy</div>
                                 </div>
                                 <div className="d-flex">
-                                    <div>Prep</div>
-                                    <div>15 Mins</div>
+                                    <div className="mr-2 text-pk">SER/FS</div>
+                                    <div>02</div>
                                 </div>
                             </div>
                         </div>
                         {/*FOUR BUTTON ARE HERE*/}
-                        <div className="row">
+                        <div className="row my-5">
                             <div className="col-3">
                                 <button className="w-100 btn-primary">Facebook</button>
                             </div>
@@ -50,52 +59,47 @@ const Recipedetail = () => {
                             </div>
                         </div>
                         {/*ARTICLE CONTENT HERE*/}
-                        <div>
+                        <div className="">
                             <div className="">
-                                <div>Tempus, tristique morbi scelerisque sed. Diam nec ut sed est sit in tortor. Blandit
-                                    consequat quisque vitae ornare diam netus tellus. Tempus, tristique morbi scelerisque
-                                    sed. Diam nec ut sed est sit in tortor. Blandit consequat quisque vitae ornare diam
-                                    netus tellus.
+                                <div>Calling all chocolate lovers! This heavenly Chocolate Cream Cake consists of three
+                                    moist chocolate cake layers filled with homemade chocolate pastry cream, and frosted
+                                    with chocolate cream cheese frosting.
                                 </div>
-                                <div>Tempus, tristique morbi scelerisque sed. Diam nec ut sed est sit in tortor. Blandit
-                                    consequat quisque vitae ornare diam netus tellus. Tempus, tristique morbi scelerisque
-                                    sed. Diam nec ut sed est sit in tortor. Blandit consequat quisque vitae ornare diam
-                                    netus tellus. Tempus, tristique morbi scelerisque sed. Diam nec ut sed est sit in tortor.
-                                    Blandit consequat quisque vitae ornare diam netus tellus. Tempus, tristique morbi
-                                    scelerisque sed. Diam nec ut sed est sit in tortor. Blandit consequat quisque vitae
-                                    ornare diam netus tellus.
+                                <div className="my-2">Today, we are using our scratch Chocolate Sour Cream Cake recipe, but feel free to
+                                    swap in any of your favorite chocolate cakes (our classic chocolate cake, & chocolate
+                                    velvet cake recipes are great choices too)!
                                 </div>
-                                <div>Blandit consequat quisque vitae ornare diam netus tellus. Tempus, tristique morbi
-                                    scelerisque sed. Diam nec ut sed est sit in tortor. Blandit consequat quisque vitae
-                                    ornare diam netus tellus.
+                                <div className="">This moist chocolate cake is soft, fluffy, and has a wonderful texture. You will love
+                                    it! The recipe calls for the Reverse Creaming Method of mixing which means that we will
+                                    be adding the ingredients in a different order than usual. You can find the full, printable chocolate cream cake recipe further down in this post
+                                    but here is a quick rundown of our steps!
                                 </div>
                             </div>
-                            <img src="./image/recipedetail/article01.jpg"/>
+                            <img className="my-4" src="./image/recipedetail/article01.jpg"/>
                             <div>
-                                <div>Tempus, tristique morbi scelerisque sed. Diam nec ut sed est sit in tortor. Blandit
-                                    consequat quisque vitae ornare diam netus tellus. Tempus, tristique morbi scelerisque
-                                    sed. Diam nec ut sed est sit in tortor. Blandit consequat quisque vitae ornare diam
-                                    netus tellus.
+                                <div className="">Today, we are using our scratch Chocolate Sour Cream Cake recipe, but feel free to
+                                    swap in any of your favorite chocolate cakes (our classic chocolate cake, & chocolate
+                                    velvet cake recipes are great choices too)!
                                 </div>
-                                <div>Tempus, tristique morbi scelerisque sed. Diam nec ut sed est sit in tortor. Blandit
-                                    consequat quisque vitae ornare diam netus tellus. Tempus, tristique morbi scelerisque
-                                    sed. Diam nec ut sed est sit in tortor. Blandit consequat quisque vitae ornare diam
-                                    netus tellus. Tempus, tristique morbi scelerisque sed. Diam nec ut sed est sit in
-                                    tortor. Blandit consequat quisque vitae ornare diam netus tellus. Tempus, tristique
-                                    morbi scelerisque sed. Diam nec ut sed est sit in tortor. Blandit consequat quisque
-                                    vitae ornare diam netus tellus.
+                                <div className="mt-2">This moist chocolate cake is soft, fluffy, and has a wonderful texture. You will love
+                                    it! The recipe calls for the Reverse Creaming Method of mixing which means that we will
+                                    be adding the ingredients in a different order than usual. You can find the full, printable chocolate cream cake recipe further down in this post
+                                    but here is a quick rundown of our steps!
                                 </div>
                             </div>
-                            <div className="row">
+                            <div className="row my-5">
                                 <div className="col-5">
-                                    <div className="heading_4">INGREDIENT</div>
+                                    <div className="d-flex">
+                                        <div className="heading_4 mb-4">INGREDIENT</div>
+                                        <div className="line"></div>
+                                    </div>
                                     <div className="">
-                                        <div className="medium_text">For the Chocolate Cake:</div>
+                                        <div className="medium_text mb-3">For the Chocolate Cake:</div>
                                         <div className="d-flex">
                                             <div className="mr-3">1 ½</div>
                                             <div>cups all-purpose flour</div>
                                         </div>
-                                        <div className="d-flex">
+                                        <div className="d-flex my-2">
                                             <div className="mr-3">¾</div>
                                             <div>cup unsweetened cocoa powder (sifted)</div>
                                         </div>
@@ -103,7 +107,7 @@ const Recipedetail = () => {
                                             <div className="mr-3">1 ½ </div>
                                             <div>teaspoons baking soda</div>
                                         </div>
-                                        <div className="d-flex">
+                                        <div className="d-flex my-2">
                                             <div className="mr-3">1</div>
                                             <div>teaspoon baking powder</div>
                                         </div>
@@ -111,7 +115,7 @@ const Recipedetail = () => {
                                             <div className="mr-3">¾</div>
                                             <div>cup granulated sugar</div>
                                         </div>
-                                        <div className="d-flex">
+                                        <div className="d-flex my-2">
                                             <div className="mr-3">¾ </div>
                                             <div>cup light brown sugar (packed)</div>
                                         </div>
@@ -119,7 +123,7 @@ const Recipedetail = () => {
                                             <div className="mr-3">¾</div>
                                             <div>teaspoon salt</div>
                                         </div>
-                                        <div className="d-flex">
+                                        <div className="d-flex my-2">
                                             <div className="mr-3">¾</div>
                                             <div>large eggs</div>
                                         </div>
@@ -127,7 +131,7 @@ const Recipedetail = () => {
                                             <div className="mr-3">¾</div>
                                             <div>cup vegetable oil</div>
                                         </div>
-                                        <div className="d-flex">
+                                        <div className="d-flex my-2">
                                             <div className="mr-3">¾</div>
                                             <div>cup buttermilk (room temperature)</div>
                                         </div>
@@ -135,18 +139,18 @@ const Recipedetail = () => {
                                             <div className="mr-3">¾</div>
                                             <div>teaspoons vanilla extract</div>
                                         </div>
-                                        <div className="d-flex">
+                                        <div className="d-flex mt-2">
                                             <div className="mr-3">¾</div>
                                             <div>cup hot chocolate (hot, made with milk)</div>
                                         </div>
                                     </div>
-                                    <div>
-                                        <div className="medium_text">For the Marshmallow Fluff:</div>
+                                    <div className="my-3">
+                                        <div className="medium_text mb-3">For the Marshmallow Fluff:</div>
                                         <div className="d-flex">
                                             <div className="mr-3">¾</div>
                                             <div>cup water</div>
                                         </div>
-                                        <div className="d-flex">
+                                        <div className="d-flex my-2">
                                             <div className="mr-3">¾</div>
                                             <div>cup granulated sugar</div>
                                         </div>
@@ -154,18 +158,18 @@ const Recipedetail = () => {
                                             <div className="mr-3">¾</div>
                                             <div>large egg whites</div>
                                         </div>
-                                        <div className="d-flex">
+                                        <div className="d-flex mt-2">
                                             <div className="mr-3">¾</div>
                                             <div>teaspoon cream of tartar</div>
                                         </div>
                                     </div>
                                     <div>
-                                        <div className="medium_text">For the Chocolate Frosting</div>
+                                        <div className="medium_text mb-3">For the Chocolate Frosting</div>
                                         <div className="d-flex">
                                             <div className="mr-3">5</div>
                                             <div>Large egg whites</div>
                                         </div>
-                                        <div className="d-flex">
+                                        <div className="d-flex my-2">
                                             <div className="mr-3">1 ¼</div>
                                             <div>cups granulated sugar</div>
                                         </div>
@@ -180,10 +184,13 @@ const Recipedetail = () => {
                                 </div>
                             </div>
                             <div>
-                                <div className="heading_4">INSTRUCTIONS</div>
-                                <div className="row">
+                                <div className="d-flex">
+                                    <div className="heading_4 text-pk">INSTRUCTIONS</div>
+                                    <div className="line"></div>
+                                </div>
+                                <div className="row mt-5">
                                     <div className="col-4">
-                                        <div className="heading_5">01/</div>
+                                        <div className="heading_5 text-pk mb-2">01/</div>
                                         <div className="medium_text">Lemon Poppy Seed Cake:</div>
                                     </div>
                                     <div className="col-8">
@@ -207,10 +214,10 @@ const Recipedetail = () => {
                                         </ol>
                                     </div>
                                 </div>
-                                <img src="./image/recipedetail/article03.jpg"/>
-                                <div className="row">
+                                <img className="my-4" src="./image/recipedetail/article03.jpg"/>
+                                <div className="row my-5">
                                     <div className="col-4">
-                                        <div className="heading_5">02/</div>
+                                        <div className="heading_5 text-pk mb-2">02/</div>
                                         <div className="medium_text">Lemon Simple Syrup:</div>
                                     </div>
                                     <div className="col-8">
@@ -221,20 +228,20 @@ const Recipedetail = () => {
                                 </div>
                                 <div className="row">
                                     <div className="col-4">
-                                        <div className="heading_5">03/</div>
+                                        <div className="heading_5 text-pk mb-2">03/</div>
                                         <div className="medium_text">Cream Cheese Frosting:</div>
                                     </div>
                                     <div className="col-8">
                                         <ol>
                                             <li>Using a stand mixer or hand mixer beat butter until pale and creamy.</li>
-                                            <li>Reduce speed to low. Add powdered sugar 1 cup at a time and mix on low
+                                            <li className="my-2">Reduce speed to low. Add powdered sugar 1 cup at a time and mix on low
                                                 until well blended. Increase speed to medium and beat for 3 minutes. Add
                                                 vanilla and continue to beat on medium for 1 minute.
                                             </li>
                                             <li>Slowly add chilled cream cheese one cube at a time (about 1 tablespoon at
                                                 a time). Beat well until blended and ensure no lumps of cream cheese remain.
                                             </li>
-                                            <li>If needed, add cornstarch or meringue powder 1 tablespoon at a time to
+                                            <li className="my-2">If needed, add cornstarch or meringue powder 1 tablespoon at a time to
                                                 stiffen the frosting (I didn't but this is an option). Add a pinch of salt
                                                 to cut some sweetness if desired.
                                             </li>
@@ -244,62 +251,68 @@ const Recipedetail = () => {
                                         </ol>
                                     </div>
                                 </div>
-                                <img src="./image/recipedetail/article04.jpg"/>
+                                <img className="my-4" src="./image/recipedetail/article04.jpg"/>
                                 <div className="row">
                                     <div className="col-4">
-                                        <div className="heading_5">04/</div>
-                                        <div className="medium_text">assembly:</div>
+                                        <div className="heading_5 text-pk mb-2">04/</div>
+                                        <div className="medium_text">Assembly:</div>
                                     </div>
                                     <div className="col-8">
                                         <ol>
                                             <li>Trim the crust off the top of each cake layer and brush each with the
                                                 lemon simple syrup. About 1-2 Tbsp per layer.
                                             </li>
-                                            <li>Place one layer of cake on a cake stand or serving plate. Top with 2/3
+                                            <li className="my-2">Place one layer of cake on a cake stand or serving plate. Top with 2/3
                                                 cup of frosting, spread evenly. Repeat with the remaining layers and apply
                                                 a thin coat of frosting all over the cake. Chill for 20mins.
                                             </li>
                                             <li>Use the remaining frosting to frost the cake in a rustic manner.</li>
-                                            <li>Decorate with fresh, edible flowers and lemon slices if desired.</li>
+                                            <li className="mt-2">Decorate with fresh, edible flowers and lemon slices if desired.</li>
                                         </ol>
                                     </div>
                                 </div>
                             </div>
-                            <div>
-                                <div className="heading_4">NUTRITIONAL INFORMATION</div>
+                            <div className="my-5">
+                                <div className="d-flex">
+                                    <div className="heading_4 mb-4 text-pk">NUTRITIONAL INFORMATION</div>
+                                    <div className="line"></div>
+                                </div>
                                 <div>The nutritional information and metric conversions are calculated automatically. I
                                     cannot guarantee the accuracy of this data. If this is important to you, please verify
                                     with your favorite nutrition calculator and/or metric conversion tool.
                                 </div>
-                                <div className="row">
+                                <div className="row mt-3">
                                     <div className="col-3">
                                         <div>Calories: 670kcal</div>
-                                        <div>Carbohydrates: 82g</div>
+                                        <div className="my-2">Carbohydrates: 82g</div>
                                         <div>Protein: 6g</div>
-                                        <div>Fat: 36g</div>
+                                        <div className="my-2">Fat: 36g</div>
                                         <div>Saturated Fat: 22g</div>
-                                        <div>Polyunsaturated Fat: 2g</div>
+                                        <div className="mt-2">Polyunsaturated Fat: 2g</div>
                                     </div>
                                     <div className="col-3">
                                         <div>Monounsaturated Fat: 9g</div>
-                                        <div>Trans Fat: 1g</div>
+                                        <div className="my-2">Trans Fat: 1g</div>
                                         <div>Cholesterol: 139mg</div>
-                                        <div>Sodium: 187mg</div>
+                                        <div className="my-2">Sodium: 187mg</div>
                                         <div>Potassium: 213mg</div>
-                                        <div>Fiber: 1g</div>
+                                        <div className="mt-2">Fiber: 1g</div>
                                     </div>
                                     <div className="col-3">
                                         <div>Sugar: 62g</div>
-                                        <div>Vitamin A: 1175IU</div>
+                                        <div className="my-2">Vitamin A: 1175IU</div>
                                         <div>Vitamin C: 5mg</div>
-                                        <div>Calcium: 126mg</div>
+                                        <div className="my-2">Calcium: 126mg</div>
                                         <div>Iron: 2mg</div>
                                     </div>
                                     <div className="col-3"></div>
                                 </div>
                             </div>
-                            <div>
-                                <div className="heading_4">FREQUENTLY ASKED QUESTIONS</div>
+                            <div className="">
+                                <div className="d-flex">
+                                    <div className="heading_4 mb-4 text-pk">FREQUENTLY ASKED QUESTIONS</div>
+                                    <div className="line"></div>
+                                </div>
                                 <div className="accordion-cart">
                                     <div className="d-flex">
                                         <div>How can I convert this recipe?</div>
@@ -386,7 +399,7 @@ const Recipedetail = () => {
                         {/*SPECIAL CAKE*/}
                         <div className="special-day my-5">
                             <div className="heading_6 my-3">Let's Bake A Special Cake!</div>
-                            <div className="special-cart">
+                            <div className="special-cart mb-3">
                                 <img src="./image/recipedetail/special01.jpg"/>
                                 <div className="text-light heading_6 special-title">Birthday cake</div>
                             </div>

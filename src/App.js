@@ -4,7 +4,6 @@ import {
   HashRouter as Router,
   Switch,
 } from "react-router-dom";
-import './App.css';
 
 import { ROUTER } from "./utils/constant";
 import Layout from "./component/layout";
