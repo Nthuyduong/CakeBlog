@@ -1,8 +1,39 @@
 import React, { useState, useEffect } from "react";
 import Breadcrumb from 'react-bootstrap/Breadcrumb';
 import StickyBox from "react-sticky-box";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faArrowUpLong} from "@fortawesome/free-solid-svg-icons";
 
 const Recipedetail = () => {
+    const [open, setOpen] = useState(Array(10).fill(false));
+    const toogleSection = (index) => {
+        const newopen = [...open];
+        newopen[index] = !newopen[index];
+        setOpen(newopen);
+    }
+
+    const sectionContent = [
+        {
+            question: "Question here",
+            answer: "answer here",
+        },
+        {
+            question: "Question here",
+            answer: "answer here",
+        },
+        {
+            question: "Question here",
+            answer: "answer here",
+        },
+        {
+            question: "Question here",
+            answer: "answer here",
+        },
+        {
+            question: "Question here",
+            answer: "answer here",
+        },
+    ]
     return (
         <div className="recipe-detail">
             <div className="container-fluid">
@@ -314,27 +345,21 @@ const Recipedetail = () => {
                                     <div className="heading_5 mb-4 text-pk">FREQUENTLY ASKED QUESTIONS</div>
                                     {/*<div className="line"></div>*/}
                                 </div>
-                                <div className="accordion-cart">
-                                    <div className="d-flex">
-                                        <div>How can I convert this recipe?</div>
-                                        <div></div>
+                                {sectionContent.map((section,index) => (
+                                <div className="accordion-cart" key={index}>
+                                    <div className="d-flex accor-ques">
+                                        <div>{section.question}</div>
+                                        <div className="ml-auto">
+                                            <FontAwesomeIcon icon={faArrowUpLong} className="" onClick={() => toogleSection(index)}></FontAwesomeIcon>
+                                        </div>
                                     </div>
-                                    <div></div>
-                                </div>
-                                <div className="accordion-cart">
-                                    <div className="d-flex">
-                                        <div>Can I make it in advance?</div>
-                                        <div></div>
+                                    {open[index] && (
+                                    <div className="accor-answer">
+                                        {section.answer}
                                     </div>
-                                    <div></div>
+                                    )}
                                 </div>
-                                <div className="accordion-cart">
-                                    <div className="d-flex">
-                                        <div>Can I get the measurements by weight/grams?</div>
-                                        <div></div>
-                                    </div>
-                                    <div></div>
-                                </div>
+                                    ))}
                             </div>
                             {/*MAY YOU LIKE THIS*/}
                             <div className="my-5">
