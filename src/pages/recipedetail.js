@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Breadcrumb from 'react-bootstrap/Breadcrumb';
+import StickyBox from "react-sticky-box";
 
 const Recipedetail = () => {
     return (
@@ -339,100 +340,104 @@ const Recipedetail = () => {
                     </div>
                     {/*SIDE BAR HERE*/}
                     <div className="col-3 sidebar">
-                        <div className="welcome">
-                            <img src="./image/recipedetail/welcome.jpg"/>
-                            <div className="welcome-content mt-4">
-                                <div className="heading_6 mb-2">Welcome Foodlovers</div>
-                                <div>Tempus, tristique morbi scelerisque sed. Diam nec ut sed est sit in tortor. Blandit
-                                    consequat quisque vitae ornare diam netus tellus. Tempus, tristique morbi scelerisque
-                                    sed.</div>
-                            </div>
-                        </div>
-                        {/*SIMILAR RECIPES*/}
-                        <div className="simi-recipes my-5">
-                            <div className="heading_6 mb-3">Similar recipes</div>
-                            <div className="simi-section">
-                                <div className="row">
-                                    <div className="col-4">
-                                        <img src="./image/recipedetail/simi01.jpg"/>
+                        <StickyBox offsetTop={20} offsetBottom={20}>
+                            <div>
+                                <div className="welcome">
+                                    <img src="./image/recipedetail/welcome.jpg"/>
+                                    <div className="welcome-content mt-4">
+                                        <div className="heading_6 mb-2">Welcome Foodlovers</div>
+                                        <div>Tempus, tristique morbi scelerisque sed. Diam nec ut sed est sit in tortor. Blandit
+                                            consequat quisque vitae ornare diam netus tellus. Tempus, tristique morbi scelerisque
+                                            sed.</div>
                                     </div>
-                                    <div className="col-8">
-                                        <div className="medium_text">Raspberry White Choco Cake</div>
-                                        <div className="small_text">Wed 19/08/2022</div>
+                                </div>
+                                {/*SIMILAR RECIPES*/}
+                                <div className="simi-recipes my-5">
+                                    <div className="heading_6 mb-3">Similar recipes</div>
+                                    <div className="simi-section">
+                                        <div className="row">
+                                            <div className="col-4">
+                                                <img src="./image/recipedetail/simi01.jpg"/>
+                                            </div>
+                                            <div className="col-8">
+                                                <div className="medium_text">Raspberry White Choco Cake</div>
+                                                <div className="small_text">Wed 19/08/2022</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="line my-3"></div>
+                                    <div className="simi-section">
+                                        <div className="row">
+                                            <div className="col-4">
+                                                <img src="./image/recipedetail/simi01.jpg"/>
+                                            </div>
+                                            <div className="col-8">
+                                                <div className="medium_text">Raspberry White Choco Cake</div>
+                                                <div className="small_text">Wed 19/08/2022</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="line my-3"></div>
+                                    <div className="simi-section">
+                                        <div className="row">
+                                            <div className="col-4">
+                                                <img src="./image/recipedetail/simi01.jpg"/>
+                                            </div>
+                                            <div className="col-8">
+                                                <div className="medium_text">Raspberry White Choco Cake</div>
+                                                <div className="small_text">Wed 19/08/2022</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                {/*SIGN UP FOR EMAIL*/}
+                                <div>
+                                    <div className="heading_6 mb-3">Sign Up For Email</div>
+                                    <div className="my-3">Enter your email address to receive new posts in your inbox and seasonal
+                                        newsletters with extra goodies!</div>
+                                    <div>Email address</div>
+                                    <input className="w-100" type="text"/>
+                                    <button className="w-100 btn-pri-sm mt-4" type="submit">Sign up</button>
+                                </div>
+                                {/*SPECIAL CAKE*/}
+                                <div className="special-day my-5">
+                                    <div className="heading_6 my-3">Let's Bake A Special Cake!</div>
+                                    <div className="special-cart mb-3">
+                                        <img src="./image/recipedetail/special01.jpg"/>
+                                        <div className="text-light heading_6 special-title">Birthday cake</div>
+                                    </div>
+                                    <div className="special-cart">
+                                        <img src="./image/recipedetail/special02.jpg"/>
+                                        <div className="text-light heading_6 special-title">Party cake</div>
+                                    </div>
+                                </div>
+                                {/*SUGGEST RECIPES*/}
+                                <div className="suggest-rcp">
+                                    <div className="heading_6 mb-3">Suggest Recipes</div>
+                                    <div className="suggest-cart">
+                                        <img src="./image/recipedetail/suggest01.jpg"/>
+                                        <div className="suggest-title">
+                                            <div className="small_text">Cake&Vegan</div>
+                                            <div className="medium_text">Gluten-Free Tres Leches Cake</div>
+                                        </div>
+                                    </div>
+                                    <div className="suggest-cart my-4">
+                                        <img src="./image/recipedetail/suggest02.jpg"/>
+                                        <div className="suggest-title">
+                                            <div className="small_text">Cake&Vegan</div>
+                                            <div className="medium_text">Gluten-Free Tres Leches Cake</div>
+                                        </div>
+                                    </div>
+                                    <div className="suggest-cart">
+                                        <img src="./image/recipedetail/suggest03.jpg"/>
+                                        <div className="suggest-title">
+                                            <div className="small_text">Cake&Vegan</div>
+                                            <div className="medium_text">Gluten-Free Tres Leches Cake</div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div className="line my-3"></div>
-                            <div className="simi-section">
-                                <div className="row">
-                                    <div className="col-4">
-                                        <img src="./image/recipedetail/simi01.jpg"/>
-                                    </div>
-                                    <div className="col-8">
-                                        <div className="medium_text">Raspberry White Choco Cake</div>
-                                        <div className="small_text">Wed 19/08/2022</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="line my-3"></div>
-                            <div className="simi-section">
-                                <div className="row">
-                                    <div className="col-4">
-                                        <img src="./image/recipedetail/simi01.jpg"/>
-                                    </div>
-                                    <div className="col-8">
-                                        <div className="medium_text">Raspberry White Choco Cake</div>
-                                        <div className="small_text">Wed 19/08/2022</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        {/*SIGN UP FOR EMAIL*/}
-                        <div>
-                            <div className="heading_6 mb-3">Sign Up For Email</div>
-                            <div className="my-3">Enter your email address to receive new posts in your inbox and seasonal
-                                newsletters with extra goodies!</div>
-                            <div>Email address</div>
-                            <input className="w-100" type="text"/>
-                            <button className="w-100 btn-pri-sm mt-4" type="submit">Sign up</button>
-                        </div>
-                        {/*SPECIAL CAKE*/}
-                        <div className="special-day my-5">
-                            <div className="heading_6 my-3">Let's Bake A Special Cake!</div>
-                            <div className="special-cart mb-3">
-                                <img src="./image/recipedetail/special01.jpg"/>
-                                <div className="text-light heading_6 special-title">Birthday cake</div>
-                            </div>
-                            <div className="special-cart">
-                                <img src="./image/recipedetail/special02.jpg"/>
-                                <div className="text-light heading_6 special-title">Party cake</div>
-                            </div>
-                        </div>
-                        {/*SUGGEST RECIPES*/}
-                        <div className="suggest-rcp">
-                            <div className="heading_6 mb-3">Suggest Recipes</div>
-                            <div className="suggest-cart">
-                                <img src="./image/recipedetail/suggest01.jpg"/>
-                                <div className="suggest-title">
-                                    <div className="small_text">Cake&Vegan</div>
-                                    <div className="medium_text">Gluten-Free Tres Leches Cake</div>
-                                </div>
-                            </div>
-                            <div className="suggest-cart my-4">
-                                <img src="./image/recipedetail/suggest02.jpg"/>
-                                <div className="suggest-title">
-                                    <div className="small_text">Cake&Vegan</div>
-                                    <div className="medium_text">Gluten-Free Tres Leches Cake</div>
-                                </div>
-                            </div>
-                            <div className="suggest-cart">
-                                <img src="./image/recipedetail/suggest03.jpg"/>
-                                <div className="suggest-title">
-                                    <div className="small_text">Cake&Vegan</div>
-                                    <div className="medium_text">Gluten-Free Tres Leches Cake</div>
-                                </div>
-                            </div>
-                        </div>
+                        </StickyBox>
                     </div>
                 </div>
             </div>
