@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/CakeBlog/static/css/main.82ce5edb.css",
-    "main.js": "/CakeBlog/static/js/main.27a012ee.js",
+    "main.js": "/CakeBlog/static/js/main.42f04bd9.js",
     "static/js/787.086c1495.chunk.js": "/CakeBlog/static/js/787.086c1495.chunk.js",
     "static/media/special-right.png": "/CakeBlog/static/media/special-right.c4b0364f31a82821a88f.png",
     "index.html": "/CakeBlog/index.html",
     "main.82ce5edb.css.map": "/CakeBlog/static/css/main.82ce5edb.css.map",
-    "main.27a012ee.js.map": "/CakeBlog/static/js/main.27a012ee.js.map",
+    "main.42f04bd9.js.map": "/CakeBlog/static/js/main.42f04bd9.js.map",
     "787.086c1495.chunk.js.map": "/CakeBlog/static/js/787.086c1495.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.82ce5edb.css",
-    "static/js/main.27a012ee.js"
+    "static/js/main.42f04bd9.js"
   ]
 }
