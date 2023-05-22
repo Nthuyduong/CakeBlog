@@ -4,16 +4,16 @@ import StickyBox from "react-sticky-box";
 
 const Recipedetail = () => {
     return (
-        <div>
+        <div className="recipe-detail">
             <div className="container-fluid">
                 {/*BREADCRUMB*/}
-                <div>
+                <div className="mt-3">
                     <Breadcrumb>
                         <Breadcrumb.Item href="/">Home</Breadcrumb.Item>
                         <Breadcrumb.Item href="https://getbootstrap.com/docs/4.0/components/breadcrumb/">
                             Trending Reipes
                         </Breadcrumb.Item>
-                        <Breadcrumb.Item active>Data</Breadcrumb.Item>
+                        <Breadcrumb.Item active>Recipe detail</Breadcrumb.Item>
                     </Breadcrumb>
                 </div>
                 {/*RECIPE DETAIL HERE*/}
@@ -23,7 +23,7 @@ const Recipedetail = () => {
                         <div className="row">
                             <div className="col-10">
                                 <div>Published Aug 19, 2022</div>
-                                <div className="heading_3">Chocolate Raspberry Cream Cake</div>
+                                <div className="heading_3 mt-3">Chocolate Raspberry Cream Cake</div>
                             </div>
                             <div className="col-2">
                                 <div className="d-flex">
@@ -91,8 +91,8 @@ const Recipedetail = () => {
                             <div className="row my-5">
                                 <div className="col-5">
                                     <div className="d-flex">
-                                        <div className="heading_4 mb-4">INGREDIENT</div>
-                                        <div className="line"></div>
+                                        <div className="heading_5 text-pk mb-4">INGREDIENT</div>
+                                        {/*<div className="line"></div>*/}
                                     </div>
                                     <div className="">
                                         <div className="medium_text mb-3">For the Chocolate Cake:</div>
@@ -186,8 +186,8 @@ const Recipedetail = () => {
                             </div>
                             <div>
                                 <div className="d-flex">
-                                    <div className="heading_4 text-pk">INSTRUCTIONS</div>
-                                    <div className="line"></div>
+                                    <div className="heading_5 text-pk">INSTRUCTIONS</div>
+                                    {/*<div className="line"></div>*/}
                                 </div>
                                 <div className="row mt-5">
                                     <div className="col-4">
@@ -275,8 +275,8 @@ const Recipedetail = () => {
                             </div>
                             <div className="my-5">
                                 <div className="d-flex">
-                                    <div className="heading_4 mb-4 text-pk">NUTRITIONAL INFORMATION</div>
-                                    <div className="line"></div>
+                                    <div className="heading_5 mb-4 text-pk">NUTRITIONAL INFORMATION</div>
+                                    {/*<div className="line"></div>*/}
                                 </div>
                                 <div>The nutritional information and metric conversions are calculated automatically. I
                                     cannot guarantee the accuracy of this data. If this is important to you, please verify
@@ -311,8 +311,8 @@ const Recipedetail = () => {
                             </div>
                             <div className="">
                                 <div className="d-flex">
-                                    <div className="heading_4 mb-4 text-pk">FREQUENTLY ASKED QUESTIONS</div>
-                                    <div className="line"></div>
+                                    <div className="heading_5 mb-4 text-pk">FREQUENTLY ASKED QUESTIONS</div>
+                                    {/*<div className="line"></div>*/}
                                 </div>
                                 <div className="accordion-cart">
                                     <div className="d-flex">
@@ -333,6 +333,118 @@ const Recipedetail = () => {
                                         <div>Can I get the measurements by weight/grams?</div>
                                         <div></div>
                                     </div>
+                                    <div></div>
+                                </div>
+                            </div>
+                            {/*MAY YOU LIKE THIS*/}
+                            <div className="my-5">
+                                <div className="heading_5 mb-4 text-pk text-center">MAY YOU LIKE THIS</div>
+                                <div className="row">
+                                    <div className="col-4">
+                                        <div className="suggest-cart">
+                                            <img src="./image/recipedetail/may01.png"/>
+                                            <div className="suggest-title">
+                                                <div className="small_text">Dessert&Vegan</div>
+                                                <div className="medium_text">CHOCO CREAM CAKE</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="col-4">
+                                        <div className="suggest-cart">
+                                            <img src="./image/recipedetail/may02.png"/>
+                                            <div className="suggest-title">
+                                                <div className="small_text">Dessert&Vegan</div>
+                                                <div className="medium_text">APPLE CREAM CAKE</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="col-4">
+                                        <div className="suggest-cart">
+                                            <img src="./image/recipedetail/may03.png"/>
+                                            <div className="suggest-title">
+                                                <div className="small_text">Dessert&Vegan</div>
+                                                <div className="medium_text">APPLE CREAM CAKE</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            {/*COMMENTS*/}
+                            <div>
+                                <div className="heading_5 text-pk text-center mb-4">COMMENTS</div>
+                                <div>
+                                    <div className="cmt-section">
+                                        <div className="d-flex">
+                                            <div className="avt">
+                                                <img src="./image/recipedetail/avt01.png"/>
+                                            </div>
+                                            <div className="cmt-name mr-auto ml-2">
+                                                <div className="small_text">3 days ago</div>
+                                                <div className="medium_text">Nthduong</div>
+                                            </div>
+                                            <div className="cmt-like">
+                                                <div className="d-flex">
+                                                    <div>10</div>
+                                                    <div>heart</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div>Baking time will vary if you change the pan size. Every oven is different
+                                            so I can’t say for certain what you’ll need to adjust it to. Be  sure to
+                                            check on the cakes while they are baking.
+                                        </div>
+                                    </div>
+                                    <div className="line my-4"></div>
+                                    <div className="cmt-section">
+                                        <div className="d-flex">
+                                            <div className="avt">
+                                                <img src="./image/recipedetail/avt01.png"/>
+                                            </div>
+                                            <div className="cmt-name mr-auto ml-2">
+                                                <div className="small_text">3 days ago</div>
+                                                <div className="medium_text">Nthduong</div>
+                                            </div>
+                                            <div className="cmt-like">
+                                                <div className="d-flex">
+                                                    <div>10</div>
+                                                    <div>heart</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div>Baking time will vary if you change the pan size. Every oven is different
+                                            so I can’t say for certain what you’ll need to adjust it to. Be  sure to
+                                            check on the cakes while they are baking.
+                                        </div>
+                                    </div>
+                                    <div className="line my-4"></div>
+                                    <div className="cmt-section">
+                                        <div className="d-flex">
+                                            <div className="avt">
+                                                <img src="./image/recipedetail/avt01.png"/>
+                                            </div>
+                                            <div className="cmt-name mr-auto ml-2">
+                                                <div className="small_text">3 days ago</div>
+                                                <div className="medium_text">Nthduong</div>
+                                            </div>
+                                            <div className="cmt-like">
+                                                <div className="d-flex">
+                                                    <div>10</div>
+                                                    <div>heart</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div>Baking time will vary if you change the pan size. Every oven is different
+                                            so I can’t say for certain what you’ll need to adjust it to. Be  sure to
+                                            check on the cakes while they are baking.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            {/*LEAVE COMMENT*/}
+                            <div className="my-5">
+                                <div className="text_pk heading_5"></div>
+                                <div>Your email address will not be published. Required fields are marked *</div>
+                                <div className="cmt-form">
                                     <div></div>
                                 </div>
                             </div>
