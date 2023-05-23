@@ -467,14 +467,16 @@ const Recipedetail = () => {
                             </div>
                             {/*LEAVE COMMENT*/}
                             <div className="my-5">
-                                <div className="text_pk heading_5"></div>
-                                <div>Your email address will not be published. Required fields are marked *</div>
+                                <div className="text-center mb-5">
+                                    <div className="text-pk heading_5 mb-3">LEAVE A COMMENT</div>
+                                    <div>Your email address will not be published. Required fields are marked *</div>
+                                </div>
                                 <div className="cmt-form">
                                     <div>
                                         <div>Your name</div>
                                         <input className="w-100" type="text"/>
                                     </div>
-                                    <div>
+                                    <div className="my-4">
                                         <div>Email address*</div>
                                         <input type="text" className="w-100"/>
                                     </div>
@@ -482,7 +484,7 @@ const Recipedetail = () => {
                                         <div>Message*</div>
                                         <textarea className="w-100" row="10"></textarea>
                                     </div>
-                                    <div>
+                                    <div className="mt-5 contain-btn">
                                         <button type="submit" className="btn-primary">Post comment</button>
                                     </div>
                                 </div>

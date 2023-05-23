@@ -51,7 +51,6 @@ const Home = () => {
                             <div className="col-3"></div>
                             <div className="col-6 text-center">
                                 <div className="heading_3 mb-3">Recently Update</div>
-
                                 <div>Cake enthusiast? Checked our blog recently? Go on now.</div>
                             </div>
                             <div className="col-3"></div>
@@ -60,7 +59,9 @@ const Home = () => {
                             <div className="row">
                                 <div className="col-4">
                                     <div className="update-cart">
-                                        <img src="./image/home/update1.png"/>
+                                        <Link to={ROUTER.RECIPEDETAIL}>
+                                            <img src="./image/home/update1.png"/>
+                                        </Link>
                                         <div className="update-title">
                                             <div className="small-text">
                                                 Cake&Vegan
@@ -77,7 +78,9 @@ const Home = () => {
                                 </div>
                                 <div className="col-4">
                                     <div className="update-cart">
-                                        <img src="./image/home/update2.png"/>
+                                        <Link to={ROUTER.RECIPEDETAIL}>
+                                            <img src="./image/home/update2.png"/>
+                                        </Link>
                                         <div className="update-title">
                                             <div className="small-text">
                                                 Cake&Vegan
@@ -94,7 +97,9 @@ const Home = () => {
                                 </div>
                                 <div className="col-4">
                                     <div className="update-cart">
-                                        <img src="./image/home/update3.jpg"/>
+                                        <Link to={ROUTER.RECIPEDETAIL}>
+                                            <img src="./image/home/update3.jpg"/>
+                                        </Link>
                                         <div className="update-title">
                                             <div className="small-text">
                                                 Cake&Vegan
@@ -146,7 +151,9 @@ const Home = () => {
                         <div className="row">
                             <div className="col-3">
                                 <div className="update-cart">
-                                    <img src="./image/home/season1.png"/>
+                                    <Link to={ROUTER.RECIPEDETAIL}>
+                                        <img src="./image/home/season1.png"/>
+                                    </Link>
                                     <div className="update-title">
                                         <div className="small-text">
                                             Cake&Vegan
@@ -163,7 +170,9 @@ const Home = () => {
                             </div>
                             <div className="col-3">
                                 <div className="update-cart">
-                                    <img src="./image/home/season2.png"/>
+                                    <Link to={ROUTER.RECIPEDETAIL}>
+                                        <img src="./image/home/season2.png"/>
+                                    </Link>
                                     <div className="update-title">
                                         <div className="small-text">
                                             Cake&Vegan
@@ -180,7 +189,9 @@ const Home = () => {
                             </div>
                             <div className="col-3">
                                 <div className="update-cart">
-                                    <img src="./image/home/season3.png"/>
+                                    <Link to={ROUTER.RECIPEDETAIL}>
+                                        <img src="./image/home/season3.png"/>
+                                    </Link>
                                     <div className="update-title">
                                         <div className="small-text">
                                             Cake&Vegan
@@ -197,7 +208,9 @@ const Home = () => {
                             </div>
                             <div className="col-3">
                                 <div className="update-cart">
-                                    <img src="./image/home/season4.png"/>
+                                    <Link to={ROUTER.RECIPEDETAIL}>
+                                        <img src="./image/home/season4.png"/>
+                                    </Link>
                                     <div className="update-title">
                                         <div className="small-text">
                                             Cake&Vegan

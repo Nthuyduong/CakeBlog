@@ -48,7 +48,9 @@ const Recipelist = () => {
                 <div className="row recent-section">
                     <div className="col-3">
                         <div className="update-cart">
-                            <img src="./image/recipelist/recent01.png"/>
+                            <Link to={ROUTER.RECIPEDETAIL}>
+                                <img src="./image/recipelist/recent01.png"/>
+                            </Link>
                             <div className="update-title">
                                 <div className="small-text">
                                     Cake&Vegan
@@ -65,7 +67,9 @@ const Recipelist = () => {
                     </div>
                     <div className="col-3">
                         <div className="update-cart">
-                            <img src="./image/recipelist/recent02.png"/>
+                            <Link to={ROUTER.RECIPEDETAIL}>
+                                <img src="./image/recipelist/recent02.png"/>
+                            </Link>
                             <div className="update-title">
                                 <div className="small-text">
                                     Cake&Vegan
@@ -82,7 +86,9 @@ const Recipelist = () => {
                     </div>
                     <div className="col-3">
                         <div className="update-cart">
-                            <img src="./image/recipelist/recent03.png"/>
+                            <Link to={ROUTER.RECIPEDETAIL}>
+                                <img src="./image/recipelist/recent03.png"/>
+                            </Link>
                             <div className="update-title">
                                 <div className="small-text">
                                     Cake&Vegan
@@ -99,7 +105,9 @@ const Recipelist = () => {
                     </div>
                     <div className="col-3">
                         <div className="update-cart">
-                            <img src="./image/recipelist/recent04.png"/>
+                            <Link to={ROUTER.RECIPEDETAIL}>
+                                <img src="./image/recipelist/recent04.png"/>
+                            </Link>
                             <div className="update-title">
                                 <div className="small-text">
                                     Cake&Vegan
@@ -126,7 +134,9 @@ const Recipelist = () => {
                     {/*RECIPES LEFT*/}
                     <div className="col-4">
                         <div className="recipe-cart">
-                            <img src="./image/recipelist/all-r01.jpg"/>
+                            <Link to={ROUTER.RECIPEDETAIL}>
+                                <img src="./image/recipelist/all-r01.jpg"/>
+                            </Link>
                             <div>Cake&Vegan</div>
                             <div className="heading_6">Chocolate Cream Cake</div>
                             <div>
@@ -136,7 +146,9 @@ const Recipelist = () => {
                         </div>
                         <div className="line my-4"></div>
                         <div className="recipe-cart">
-                            <img src="./image/recipelist/all-r02.png"/>
+                            <Link to={ROUTER.RECIPEDETAIL}>
+                                <img src="./image/recipelist/all-r02.png"/>
+                            </Link>
                             <div>Cake&Vegan</div>
                             <div className="heading_6">Chocolate Cream Cake</div>
                             <div>
@@ -146,7 +158,9 @@ const Recipelist = () => {
                         </div>
                         <div className="line my-4"></div>
                         <div className="recipe-cart">
-                            <img src="./image/recipelist/all-r03.png"/>
+                            <Link to={ROUTER.RECIPEDETAIL}>
+                                <img src="./image/recipelist/all-r03.png"/>
+                            </Link>
                             <div>Cake&Vegan</div>
                             <div className="heading_6">Chocolate Cream Cake</div>
                             <div>
@@ -156,7 +170,9 @@ const Recipelist = () => {
                         </div>
                         <div className="line my-4"></div>
                         <div className="recipe-cart">
-                            <img src="./image/recipelist/all-r04.png"/>
+                            <Link to={ROUTER.RECIPEDETAIL}>
+                                <img src="./image/recipelist/all-r04.png"/>
+                            </Link>
                             <div>Cake&Vegan</div>
                             <div className="heading_6">Chocolate Cream Cake</div>
                             <div>
@@ -168,7 +184,9 @@ const Recipelist = () => {
                     {/*RECIPE CENTER*/}
                     <div className="col-4">
                         <div className="recipe-cart">
-                            <img src="./image/recipelist/all-r5.png"/>
+                            <Link to={ROUTER.RECIPEDETAIL}>
+                                <img src="./image/recipelist/all-r5.png"/>
+                            </Link>
                             <div>Cake&Vegan</div>
                             <div className="heading_6">Chocolate Cream Cake</div>
                             <div>
@@ -178,7 +196,9 @@ const Recipelist = () => {
                         </div>
                         <div className="line my-4"></div>
                         <div className="recipe-cart">
-                            <img src="./image/recipelist/all-r6.png"/>
+                            <Link to={ROUTER.RECIPEDETAIL}>
+                                <img src="./image/recipelist/all-r6.png"/>
+                            </Link>
                             <div>Cake&Vegan</div>
                             <div className="heading_6">Chocolate Cream Cake</div>
                             <div>
@@ -188,7 +208,9 @@ const Recipelist = () => {
                         </div>
                         <div className="line my-4"></div>
                         <div className="recipe-cart">
-                            <img src="./image/recipelist/all-r8.png"/>
+                            <Link to={ROUTER.RECIPEDETAIL}>
+                                <img src="./image/recipelist/all-r8.png"/>
+                            </Link>
                             <div>Cake&Vegan</div>
                             <div className="heading_6">Chocolate Cream Cake</div>
                             <div>
@@ -198,7 +220,9 @@ const Recipelist = () => {
                         </div>
                         <div className="line my-4"></div>
                         <div className="recipe-cart">
-                            <img src="./image/recipelist/all-r9.png"/>
+                            <Link to={ROUTER.RECIPEDETAIL}>
+                                <img src="./image/recipelist/all-r9.png"/>
+                            </Link>
                             <div>Cake&Vegan</div>
                             <div className="heading_6">Chocolate Cream Cake</div>
                             <div>
@@ -210,7 +234,9 @@ const Recipelist = () => {
                     {/*RECIPE RIGHT*/}
                     <div className="col-4">
                         <div className="recipe-cart">
-                            <img src="./image/recipelist/all-r9.png"/>
+                            <Link to={ROUTER.RECIPEDETAIL}>
+                                <img src="./image/recipelist/all-r9.png"/>
+                            </Link>
                             <div>Cake&Vegan</div>
                             <div className="heading_6">Chocolate Cream Cake</div>
                             <div>
@@ -220,7 +246,9 @@ const Recipelist = () => {
                         </div>
                         <div className="line my-4"></div>
                         <div className="recipe-cart">
-                            <img src="./image/recipelist/all-r10.png"/>
+                            <Link to={ROUTER.RECIPEDETAIL}>
+                                <img src="./image/recipelist/all-r10.png"/>
+                            </Link>
                             <div>Cake&Vegan</div>
                             <div className="heading_6">Chocolate Cream Cake</div>
                             <div>
@@ -230,7 +258,9 @@ const Recipelist = () => {
                         </div>
                         <div className="line my-4"></div>
                         <div className="recipe-cart">
-                            <img src="./image/recipelist/all-r11.png"/>
+                            <Link to={ROUTER.RECIPEDETAIL}>
+                                <img src="./image/recipelist/all-r11.png"/>
+                            </Link>
                             <div>Cake&Vegan</div>
                             <div className="heading_6">Chocolate Cream Cake</div>
                             <div>
@@ -240,7 +270,9 @@ const Recipelist = () => {
                         </div>
                         <div className="line my-4"></div>
                         <div className="recipe-cart">
-                            <img src="./image/recipelist/all-r12.png"/>
+                            <Link to={ROUTER.RECIPEDETAIL}>
+                                <img src="./image/recipelist/all-r12.png"/>
+                            </Link>
                             <div>Cake&Vegan</div>
                             <div className="heading_6">Chocolate Cream Cake</div>
                             <div>

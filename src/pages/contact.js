@@ -117,7 +117,7 @@ const Contact = () => {
                                     <div>Message</div>
                                     <textarea className="w-100" row="10"></textarea>
                                 </div>
-                                <div className="mt-5">
+                                <div className="mt-5 contain-btn">
                                     <button type="submit" className="btn-primary">Send it</button>
                                 </div>
                             </div>
