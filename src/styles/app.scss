@@ -134,7 +134,9 @@ a{
 .d-flex{
   display: flex;
 }
-
+.als-center{
+  align-self:center;
+}
 //BUTTONS
 .btn-primary{
   background-color: $primary_color !important;

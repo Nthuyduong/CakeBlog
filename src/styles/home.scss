@@ -51,20 +51,23 @@
 
 //SPECIAL CAKE
 .special-cake{
+  margin-bottom:120px;
   .special-left{
-    background-image: url("../img/special-left.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
+    background-color: $tertiary_color;
     .left-inner{
-      .left-img{
-        width: 50%;
-      }
+      position: absolute;
+      top:50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
     }
   }
   .special-right{
-    background-image: url("../img/special-right.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
+    padding-left: 0px !important;
+   .right-content{
+     position: absolute;
+     bottom: 5%;
+     left: 5%;
+   }
   }
 }
 
@@ -86,7 +89,7 @@
 
 //FOLLOW ON INSTAGRAM
 .follow{
-  padding-top:90px;
+  padding-top:120px;
   padding-bottom:90px;
   margin-bottom:120px;
   .follow-left{

@@ -1,6 +1,8 @@
 import React from "react";
 import {ROUTER} from "../utils/constant";
 import {Link} from "react-router-dom";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faHeart} from "@fortawesome/free-solid-svg-icons";
 
 const Home = () => {
     return (
@@ -65,8 +67,14 @@ const Home = () => {
                                             <img src="./image/home/update1.png"/>
                                         </Link>
                                         <div className="update-title">
-                                            <div className="small-text">
-                                                Cake&Vegan
+                                            <div className="d-flex">
+                                                <div className="small-text mr-auto">
+                                                    Cake&Vegan
+                                                </div>
+                                                <div className="d-flex">
+                                                    <div className="mr-1">80</div>
+                                                    <FontAwesomeIcon icon={faHeart}></FontAwesomeIcon>
+                                                </div>
                                             </div>
                                             <div className="heading_6">
                                                 Chocolate cream cake
@@ -84,8 +92,14 @@ const Home = () => {
                                             <img src="./image/home/update2.png"/>
                                         </Link>
                                         <div className="update-title">
-                                            <div className="small-text">
-                                                Cake&Vegan
+                                            <div className="d-flex">
+                                                <div className="small-text mr-auto">
+                                                    Cake&Vegan
+                                                </div>
+                                                <div className="d-flex">
+                                                    <div className="mr-1">80</div>
+                                                    <FontAwesomeIcon className="als-center" icon={faHeart}></FontAwesomeIcon>
+                                                </div>
                                             </div>
                                             <div className="heading_6">
                                                 Chocolate cream cake
@@ -103,8 +117,14 @@ const Home = () => {
                                             <img src="./image/home/update3.jpg"/>
                                         </Link>
                                         <div className="update-title">
-                                            <div className="small-text">
-                                                Cake&Vegan
+                                            <div className="d-flex">
+                                                <div className="small-text mr-auto">
+                                                    Cake&Vegan
+                                                </div>
+                                                <div className="d-flex">
+                                                    <div className="mr-1">80</div>
+                                                    <FontAwesomeIcon className="als-center" icon={faHeart}></FontAwesomeIcon>
+                                                </div>
                                             </div>
                                             <div className="heading_6">
                                                 Chocolate cream cake
@@ -120,26 +140,31 @@ const Home = () => {
                         </div>
                     </div>
                     {/*SPECIAL CAKE*/}
-                    {/*<div className="special-cake">*/}
-                    {/*    <div className="row">*/}
-                    {/*        <div className="col-6 special-left">*/}
-                    {/*            <div className="left-inner">*/}
-                    {/*                <div className="medium_text">Special cake</div>*/}
-                    {/*                <div className="heading_6">Happy Cream Day</div>*/}
-                    {/*                <img className="left-img" src="./image/home/special-inner.png"/>*/}
-                    {/*            </div>*/}
-                    {/*        </div>*/}
-                    {/*        <div className="col-6 special-right">*/}
-                    {/*            <div className="right-content">*/}
-                    {/*                <div className="heading_6">Chocolate cake</div>*/}
-                    {/*                <div className="">*/}
-                    {/*                    Tempus, tristique morbi scelerisque sed. Diam nec ut sed est sit in tortor.*/}
-                    {/*                    Blandit consequat quisque vitae ornare diam.*/}
-                    {/*                </div>*/}
-                    {/*            </div>*/}
-                    {/*        </div>*/}
-                    {/*    </div>*/}
-                    {/*</div>*/}
+                    <div className="special-cake">
+                        <div className="row">
+                            <div className="col-6 special-left">
+                                <div className="left-inner">
+                                    <div className="text-center">
+                                        <div className="heading_6">Special cake</div>
+                                        <div className="heading_4 my-2 text-pk">Happy Cream Day</div>
+                                    </div>
+                                    <img className="left-img" src="./image/home/special-inner.png"/>
+                                </div>
+                            </div>
+                            <div className="col-6 special-right">
+                                <div className="right-img">
+                                    <img src="./image/home/special-right.png"/>
+                                </div>
+                                <div className="right-content">
+                                    <div className="heading_5 mb-3">Chocolate cake</div>
+                                    <div className="">
+                                        Tempus, tristique morbi scelerisque sed. Diam nec ut sed est sit in tortor.
+                                        Blandit consequat quisque vitae ornare diam.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     {/*FOR THIS SEASON*/}
                     <div className="for-season">
                         <div className="title row mb-5">
@@ -157,8 +182,14 @@ const Home = () => {
                                         <img src="./image/home/season1.png"/>
                                     </Link>
                                     <div className="update-title">
-                                        <div className="small-text">
-                                            Cake&Vegan
+                                        <div className="d-flex">
+                                            <div className="small-text mr-auto">
+                                                Cake&Vegan
+                                            </div>
+                                            <div className="d-flex">
+                                                <div className="mr-1">80</div>
+                                                <FontAwesomeIcon className="als-center" icon={faHeart}></FontAwesomeIcon>
+                                            </div>
                                         </div>
                                         <div className="medium_text">
                                             Chocolate cream cake
@@ -176,8 +207,14 @@ const Home = () => {
                                         <img src="./image/home/season2.png"/>
                                     </Link>
                                     <div className="update-title">
-                                        <div className="small-text">
-                                            Cake&Vegan
+                                        <div className="d-flex">
+                                            <div className="small-text mr-auto">
+                                                Cake&Vegan
+                                            </div>
+                                            <div className="d-flex">
+                                                <div className="mr-1">80</div>
+                                                <FontAwesomeIcon className="als-center" icon={faHeart}></FontAwesomeIcon>
+                                            </div>
                                         </div>
                                         <div className="medium_text">
                                             Chocolate cream cake
@@ -195,8 +232,14 @@ const Home = () => {
                                         <img src="./image/home/season3.png"/>
                                     </Link>
                                     <div className="update-title">
-                                        <div className="small-text">
-                                            Cake&Vegan
+                                        <div className="d-flex">
+                                            <div className="small-text mr-auto">
+                                                Cake&Vegan
+                                            </div>
+                                            <div className="d-flex">
+                                                <div className="mr-1">80</div>
+                                                <FontAwesomeIcon className="als-center" icon={faHeart}></FontAwesomeIcon>
+                                            </div>
                                         </div>
                                         <div className="medium_text">
                                             Chocolate cream cake
@@ -214,8 +257,14 @@ const Home = () => {
                                         <img src="./image/home/season4.png"/>
                                     </Link>
                                     <div className="update-title">
-                                        <div className="small-text">
-                                            Cake&Vegan
+                                        <div className="d-flex">
+                                            <div className="small-text mr-auto">
+                                                Cake&Vegan
+                                            </div>
+                                            <div className="d-flex">
+                                                <div className="mr-1">80</div>
+                                                <FontAwesomeIcon className="als-center" icon={faHeart}></FontAwesomeIcon>
+                                            </div>
                                         </div>
                                         <div className="medium_text">
                                             Chocolate cream cake
@@ -236,10 +285,18 @@ const Home = () => {
                         </div>
                         <div className="col-5 signup-right">
                             <div className="signup-content">
-                                <div className="heading_4 signup-title">Sign Up For Email</div>
+                                <div className="heading_4 signup-title mb-3">Sign Up For Email</div>
                                 <div>Enter your email address to receive new posts in your inbox, as well as seasonal
                                     newsletters with
-                                    extra goodies!</div>
+                                    extra goodies!
+                                </div>
+                                <div className="my-4">
+                                    <div className="mb-2">Email address*</div>
+                                    <input type="text" className="w-100"/>
+                                </div>
+                                <div className="pt-2">
+                                    <button className="btn-primary w-100">Sign up</button>
+                                </div>
                             </div>
                         </div>
                     </div>

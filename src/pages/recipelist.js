@@ -1,6 +1,8 @@
 import React from "react";
 import {ROUTER} from "../utils/constant";
 import {Link} from "react-router-dom";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faHeart} from "@fortawesome/free-solid-svg-icons";
 
 const Recipelist = () => {
     return (
@@ -54,8 +56,14 @@ const Recipelist = () => {
                                 <img src="./image/recipelist/recent01.png"/>
                             </Link>
                             <div className="update-title">
-                                <div className="small-text">
-                                    Cake&Vegan
+                                <div className="d-flex">
+                                    <div className="small-text mr-auto">
+                                        Cake&Vegan
+                                    </div>
+                                    <div className="d-flex">
+                                        <div className="mr-1">80</div>
+                                        <FontAwesomeIcon className="als-center" icon={faHeart}></FontAwesomeIcon>
+                                    </div>
                                 </div>
                                 <div className="medium_text">
                                     LEMON CHEESE CAKE
@@ -73,8 +81,14 @@ const Recipelist = () => {
                                 <img src="./image/recipelist/recent02.png"/>
                             </Link>
                             <div className="update-title">
-                                <div className="small-text">
-                                    Cake&Vegan
+                                <div className="d-flex">
+                                    <div className="small-text mr-auto">
+                                        Cake&Vegan
+                                    </div>
+                                    <div className="d-flex">
+                                        <div className="mr-1">80</div>
+                                        <FontAwesomeIcon className="als-center" icon={faHeart}></FontAwesomeIcon>
+                                    </div>
                                 </div>
                                 <div className="medium_text">
                                     SWEET CHEESE CAKE
@@ -92,8 +106,14 @@ const Recipelist = () => {
                                 <img src="./image/recipelist/recent03.png"/>
                             </Link>
                             <div className="update-title">
-                                <div className="small-text">
-                                    Cake&Vegan
+                                <div className="d-flex">
+                                    <div className="small-text mr-auto">
+                                        Cake&Vegan
+                                    </div>
+                                    <div className="d-flex">
+                                        <div className="mr-1">80</div>
+                                        <FontAwesomeIcon className="als-center" icon={faHeart}></FontAwesomeIcon>
+                                    </div>
                                 </div>
                                 <div className="medium_text">
                                     LASYO CREAM CAKE
@@ -111,8 +131,14 @@ const Recipelist = () => {
                                 <img src="./image/recipelist/recent04.png"/>
                             </Link>
                             <div className="update-title">
-                                <div className="small-text">
-                                    Cake&Vegan
+                                <div className="d-flex">
+                                    <div className="small-text mr-auto">
+                                        Cake&Vegan
+                                    </div>
+                                    <div className="d-flex">
+                                        <div className="mr-1">80</div>
+                                        <FontAwesomeIcon className="als-center" icon={faHeart}></FontAwesomeIcon>
+                                    </div>
                                 </div>
                                 <div className="medium_text">
                                     Chocolate cream cake
@@ -139,7 +165,15 @@ const Recipelist = () => {
                             <Link to={ROUTER.RECIPEDETAIL}>
                                 <img src="./image/recipelist/all-r01.jpg"/>
                             </Link>
-                            <div>Cake&Vegan</div>
+                            <div className="d-flex">
+                                <div className="small-text mr-auto">
+                                    Cake&Vegan
+                                </div>
+                                <div className="d-flex">
+                                    <div className="mr-1">80</div>
+                                    <FontAwesomeIcon className="als-center" icon={faHeart}></FontAwesomeIcon>
+                                </div>
+                            </div>
                             <div className="heading_6">Chocolate Cream Cake</div>
                             <div>
                                 Tempus, tristique morbi scelerisque sed. Diam nec ut sed est sit in tortor. Blandit
@@ -151,7 +185,15 @@ const Recipelist = () => {
                             <Link to={ROUTER.RECIPEDETAIL}>
                                 <img src="./image/recipelist/all-r02.png"/>
                             </Link>
-                            <div>Cake&Vegan</div>
+                            <div className="d-flex">
+                                <div className="small-text mr-auto">
+                                    Cake&Vegan
+                                </div>
+                                <div className="d-flex">
+                                    <div className="mr-1">80</div>
+                                    <FontAwesomeIcon className="als-center" icon={faHeart}></FontAwesomeIcon>
+                                </div>
+                            </div>
                             <div className="heading_6">Chocolate Cream Cake</div>
                             <div>
                                 Tempus, tristique morbi scelerisque sed. Diam nec ut sed est sit in tortor. Blandit
@@ -163,7 +205,15 @@ const Recipelist = () => {
                             <Link to={ROUTER.RECIPEDETAIL}>
                                 <img src="./image/recipelist/all-r03.png"/>
                             </Link>
-                            <div>Cake&Vegan</div>
+                            <div className="d-flex">
+                                <div className="small-text mr-auto">
+                                    Cake&Vegan
+                                </div>
+                                <div className="d-flex">
+                                    <div className="mr-1">80</div>
+                                    <FontAwesomeIcon className="als-center" icon={faHeart}></FontAwesomeIcon>
+                                </div>
+                            </div>
                             <div className="heading_6">Chocolate Cream Cake</div>
                             <div>
                                 Tempus, tristique morbi scelerisque sed. Diam nec ut sed est sit in tortor. Blandit
@@ -175,7 +225,15 @@ const Recipelist = () => {
                             <Link to={ROUTER.RECIPEDETAIL}>
                                 <img src="./image/recipelist/all-r04.png"/>
                             </Link>
-                            <div>Cake&Vegan</div>
+                            <div className="d-flex">
+                                <div className="small-text mr-auto">
+                                    Cake&Vegan
+                                </div>
+                                <div className="d-flex">
+                                    <div className="mr-1">80</div>
+                                    <FontAwesomeIcon className="als-center" icon={faHeart}></FontAwesomeIcon>
+                                </div>
+                            </div>
                             <div className="heading_6">Chocolate Cream Cake</div>
                             <div>
                                 Tempus, tristique morbi scelerisque sed. Diam nec ut sed est sit in tortor. Blandit
@@ -189,7 +247,15 @@ const Recipelist = () => {
                             <Link to={ROUTER.RECIPEDETAIL}>
                                 <img src="./image/recipelist/all-r5.png"/>
                             </Link>
-                            <div>Cake&Vegan</div>
+                            <div className="d-flex">
+                                <div className="small-text mr-auto">
+                                    Cake&Vegan
+                                </div>
+                                <div className="d-flex">
+                                    <div className="mr-1">80</div>
+                                    <FontAwesomeIcon className="als-center" icon={faHeart}></FontAwesomeIcon>
+                                </div>
+                            </div>
                             <div className="heading_6">Chocolate Cream Cake</div>
                             <div>
                                 Tempus, tristique morbi scelerisque sed. Diam nec ut sed est sit in tortor. Blandit
@@ -201,7 +267,15 @@ const Recipelist = () => {
                             <Link to={ROUTER.RECIPEDETAIL}>
                                 <img src="./image/recipelist/all-r6.png"/>
                             </Link>
-                            <div>Cake&Vegan</div>
+                            <div className="d-flex">
+                                <div className="small-text mr-auto">
+                                    Cake&Vegan
+                                </div>
+                                <div className="d-flex">
+                                    <div className="mr-1">80</div>
+                                    <FontAwesomeIcon className="als-center" icon={faHeart}></FontAwesomeIcon>
+                                </div>
+                            </div>
                             <div className="heading_6">Chocolate Cream Cake</div>
                             <div>
                                 Tempus, tristique morbi scelerisque sed. Diam nec ut sed est sit in tortor. Blandit
@@ -213,7 +287,15 @@ const Recipelist = () => {
                             <Link to={ROUTER.RECIPEDETAIL}>
                                 <img src="./image/recipelist/all-r8.png"/>
                             </Link>
-                            <div>Cake&Vegan</div>
+                            <div className="d-flex">
+                                <div className="small-text mr-auto">
+                                    Cake&Vegan
+                                </div>
+                                <div className="d-flex">
+                                    <div className="mr-1">80</div>
+                                    <FontAwesomeIcon className="als-center" icon={faHeart}></FontAwesomeIcon>
+                                </div>
+                            </div>
                             <div className="heading_6">Chocolate Cream Cake</div>
                             <div>
                                 Tempus, tristique morbi scelerisque sed. Diam nec ut sed est sit in tortor. Blandit
@@ -225,7 +307,15 @@ const Recipelist = () => {
                             <Link to={ROUTER.RECIPEDETAIL}>
                                 <img src="./image/recipelist/all-r9.png"/>
                             </Link>
-                            <div>Cake&Vegan</div>
+                            <div className="d-flex">
+                                <div className="small-text mr-auto">
+                                    Cake&Vegan
+                                </div>
+                                <div className="d-flex">
+                                    <div className="mr-1">80</div>
+                                    <FontAwesomeIcon className="als-center" icon={faHeart}></FontAwesomeIcon>
+                                </div>
+                            </div>
                             <div className="heading_6">Chocolate Cream Cake</div>
                             <div>
                                 Tempus, tristique morbi scelerisque sed. Diam nec ut sed est sit in tortor. Blandit
@@ -239,7 +329,15 @@ const Recipelist = () => {
                             <Link to={ROUTER.RECIPEDETAIL}>
                                 <img src="./image/recipelist/all-r9.png"/>
                             </Link>
-                            <div>Cake&Vegan</div>
+                            <div className="d-flex">
+                                <div className="small-text mr-auto">
+                                    Cake&Vegan
+                                </div>
+                                <div className="d-flex">
+                                    <div className="mr-1">80</div>
+                                    <FontAwesomeIcon className="als-center" icon={faHeart}></FontAwesomeIcon>
+                                </div>
+                            </div>
                             <div className="heading_6">Chocolate Cream Cake</div>
                             <div>
                                 Tempus, tristique morbi scelerisque sed. Diam nec ut sed est sit in tortor. Blandit
@@ -251,7 +349,15 @@ const Recipelist = () => {
                             <Link to={ROUTER.RECIPEDETAIL}>
                                 <img src="./image/recipelist/all-r10.png"/>
                             </Link>
-                            <div>Cake&Vegan</div>
+                            <div className="d-flex">
+                                <div className="small-text mr-auto">
+                                    Cake&Vegan
+                                </div>
+                                <div className="d-flex">
+                                    <div className="mr-1">80</div>
+                                    <FontAwesomeIcon className="als-center" icon={faHeart}></FontAwesomeIcon>
+                                </div>
+                            </div>
                             <div className="heading_6">Chocolate Cream Cake</div>
                             <div>
                                 Tempus, tristique morbi scelerisque sed. Diam nec ut sed est sit in tortor. Blandit
@@ -263,7 +369,15 @@ const Recipelist = () => {
                             <Link to={ROUTER.RECIPEDETAIL}>
                                 <img src="./image/recipelist/all-r11.png"/>
                             </Link>
-                            <div>Cake&Vegan</div>
+                            <div className="d-flex">
+                                <div className="small-text mr-auto">
+                                    Cake&Vegan
+                                </div>
+                                <div className="d-flex">
+                                    <div className="mr-1">80</div>
+                                    <FontAwesomeIcon className="als-center" icon={faHeart}></FontAwesomeIcon>
+                                </div>
+                            </div>
                             <div className="heading_6">Chocolate Cream Cake</div>
                             <div>
                                 Tempus, tristique morbi scelerisque sed. Diam nec ut sed est sit in tortor. Blandit
@@ -275,7 +389,15 @@ const Recipelist = () => {
                             <Link to={ROUTER.RECIPEDETAIL}>
                                 <img src="./image/recipelist/all-r12.png"/>
                             </Link>
-                            <div>Cake&Vegan</div>
+                            <div className="d-flex">
+                                <div className="small-text mr-auto">
+                                    Cake&Vegan
+                                </div>
+                                <div className="d-flex">
+                                    <div className="mr-1">80</div>
+                                    <FontAwesomeIcon className="als-center" icon={faHeart}></FontAwesomeIcon>
+                                </div>
+                            </div>
                             <div className="heading_6">Chocolate Cream Cake</div>
                             <div>
                                 Tempus, tristique morbi scelerisque sed. Diam nec ut sed est sit in tortor. Blandit
