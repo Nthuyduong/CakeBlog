@@ -14,24 +14,25 @@ const Recipedetail = () => {
 
     const sectionContent = [
         {
-            question: "Question here",
-            answer: "answer here",
+            question: "How can I convert this recipe?",
+            answer: "The recipe as-is will also work in two 8″ pans. For three 8″ pans, 1.5x the recipe. Baking time may need to be adjusted." +
+                "To make cupcakes, all you need to do is reduce the baking time — start checking at 15mins or so. The recipe will make 18-24 cupcakes depending on size." +
+                "For other conversions go here. Bake time may vary depending on pan size." +
+                "Baking time will vary if you change the pan size. Every oven is different so I can’t say for certain what you’ll need to adjust it to. Be sure to check on the cakes while they are baking.",
         },
         {
-            question: "Question here",
-            answer: "answer here",
+            question: "Can I make it in advance?",
+            answer: "The recipe as-is will also work in two 8″ pans. For three 8″ pans, 1.5x the recipe. Baking time may need to be adjusted." +
+                "To make cupcakes, all you need to do is reduce the baking time — start checking at 15mins or so. The recipe will make 18-24 cupcakes depending on size." +
+                "For other conversions go here. Bake time may vary depending on pan size." +
+                "Baking time will vary if you change the pan size. Every oven is different so I can’t say for certain what you’ll need to adjust it to. Be sure to check on the cakes while they are baking.",
         },
         {
-            question: "Question here",
-            answer: "answer here",
-        },
-        {
-            question: "Question here",
-            answer: "answer here",
-        },
-        {
-            question: "Question here",
-            answer: "answer here",
+            question: "Can I get the measurements by weight/grams?",
+            answer: "The recipe as-is will also work in two 8″ pans. For three 8″ pans, 1.5x the recipe. Baking time may need to be adjusted." +
+        "To make cupcakes, all you need to do is reduce the baking time — start checking at 15mins or so. The recipe will make 18-24 cupcakes depending on size." +
+        "For other conversions go here. Bake time may vary depending on pan size." +
+        "Baking time will vary if you change the pan size. Every oven is different so I can’t say for certain what you’ll need to adjust it to. Be sure to check on the cakes while they are baking.",
         },
     ]
     return (
@@ -348,7 +349,7 @@ const Recipedetail = () => {
                                 {sectionContent.map((section,index) => (
                                 <div className="accordion-cart mb-3" key={index}>
                                     <div className="d-flex accor-ques">
-                                        <div>{section.question}</div>
+                                        <div className="medium_text mb-2">{section.question}</div>
                                         <div className="ml-auto">
                                             <FontAwesomeIcon icon={faArrowUpLong} className="" onClick={() => toogleSection(index)}></FontAwesomeIcon>
                                         </div>
