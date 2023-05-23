@@ -346,7 +346,7 @@ const Recipedetail = () => {
                                     {/*<div className="line"></div>*/}
                                 </div>
                                 {sectionContent.map((section,index) => (
-                                <div className="accordion-cart" key={index}>
+                                <div className="accordion-cart mb-3" key={index}>
                                     <div className="d-flex accor-ques">
                                         <div>{section.question}</div>
                                         <div className="ml-auto">
@@ -470,7 +470,21 @@ const Recipedetail = () => {
                                 <div className="text_pk heading_5"></div>
                                 <div>Your email address will not be published. Required fields are marked *</div>
                                 <div className="cmt-form">
-                                    <div></div>
+                                    <div>
+                                        <div>Your name</div>
+                                        <input className="w-100" type="text"/>
+                                    </div>
+                                    <div>
+                                        <div>Email address*</div>
+                                        <input type="text" className="w-100"/>
+                                    </div>
+                                    <div>
+                                        <div>Message*</div>
+                                        <textarea className="w-100" row="10"></textarea>
+                                    </div>
+                                    <div>
+                                        <button type="submit" className="btn-primary">Post comment</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
