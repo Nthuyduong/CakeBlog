@@ -7,6 +7,32 @@ import {faHeart} from "@fortawesome/free-solid-svg-icons";
 const Home = () => {
     return (
         <div>
+            {/*SHOWCASE HERE*/}
+            <div className="showcase">
+                <div className="row">
+                    <div className="col-5 showcase-left">
+                        <div className="showcase-under">
+                            <img src="./image/home/showcase.jpg"/>
+                        </div>
+                        <div className="showcase-inner">
+                            <img src="./image/home/showcase-inner.png"/>
+                        </div>
+                    </div>
+                    <div className="col-7 showcase-right">
+                        <div className="heading_5 text-pk">Making A Cake</div>
+                        <div className="ml-5">
+                            <div className="heading_3">To Combat Boredom!</div>
+                            <div>Tempus, tristique morbi scelerisque sed. Diam nec ut sed est sit in tortor. Blandit
+                                consequat quisque vitae ornare diam netus tellus. Tempus, tristique morbi scelerisque sed.
+                                Diam nec ut sed est sit in tortor.
+                            </div>
+                        </div>
+                        <div className="d-flex">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div className="container-fluid">
                 <div className="">
                     {/*TOP TRENDING*/}
@@ -73,7 +99,7 @@ const Home = () => {
                                                 </div>
                                                 <div className="d-flex">
                                                     <div className="mr-1">80</div>
-                                                    <FontAwesomeIcon icon={faHeart}></FontAwesomeIcon>
+                                                    <FontAwesomeIcon className="als-center" icon={faHeart}></FontAwesomeIcon>
                                                 </div>
                                             </div>
                                             <div className="heading_6">

@@ -22,7 +22,7 @@ const Recipelist = () => {
                         <div className="list-box col-3">
                             <img src="./image/recipelist/list02.jpg"/>
                             <div className="list-name">
-                                <div className="heading_6">Dessert&Vegan</div>
+                                <div className="heading_6 list-title">Dessert&Vegan</div>
                             </div>
                         </div>
                         {/*BOX RIGHT*/}

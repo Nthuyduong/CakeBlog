@@ -20,6 +20,21 @@
     }
   }
 }
+//HOVER RECIPE LIST BOX
+.list-box{
+  overflow: hidden;
+}
+.list-box img{
+  transition: transform 0.5s ease-out;
+}
+.list-box:hover img{
+  transform: scale(1.03);
+  filter: brightness(80%);
+}
+.list-name:hover > list-title{
+  text-decoration: underline;
+}
+
 //RECENTLY UPDATE
 .recent-update{
   margin-top: 110px;
